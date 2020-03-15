@@ -22,12 +22,22 @@ public class Player extends Rectangle{
 		g.fillRect(this.x, this.y, this.width, this.height);
 	}
 	
-	public void setDx (int dx) {
+	public void setDx(int dx) {
 		this.dx = dx;
 	}
 	
-	public void setDy (int dy) {
+	public void setDy(int dy) {
 		this.dy = dy;
+	}
+	
+	public void stamina() {
+		this.dx = dx+10;
+		this.dy = dy+10;
+		
+	}
+	
+	public void dig () {
+		
 	}
 
 }

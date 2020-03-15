@@ -36,7 +36,7 @@ public class Screen extends JPanel implements ActionListener, KeyListener{
 	public void paint(Graphics g) {
 		g.clearRect(0, 0, getWidth(), getHeight());
 		
-		p.draw(g);;
+		p.draw(g);
 		
 	}
 	
@@ -55,15 +55,27 @@ public class Screen extends JPanel implements ActionListener, KeyListener{
 		case KeyEvent.VK_W:
 			p.setDy(-1);
 			break;
+		case KeyEvent.VK_RIGHT:
+			p.setDx(1);
+			break;
+		case KeyEvent.VK_DOWN:
+			p.setDy(1);
+			break;
+		case KeyEvent.VK_LEFT:
+			p.setDx(-1);
+			break;
+		case KeyEvent.VK_UP:
+			p.setDy(-1);
+			break;
 		}
 		
 		
 	}
 
 	
-	public void keyReleased(KeyEvent kr) {
+	public void keyReleased(KeyEvent r) {
 		
-		switch(kr.getKeyCode()) {
+		switch(r.getKeyCode()) {
 		case KeyEvent.VK_D:
 			p.setDx(0);
 			break;
@@ -76,12 +88,32 @@ public class Screen extends JPanel implements ActionListener, KeyListener{
 		case KeyEvent.VK_W:
 			p.setDy(0);
 			break;
+		case KeyEvent.VK_RIGHT:
+			p.setDx(0);
+			break;
+		case KeyEvent.VK_DOWN:
+			p.setDy(0);
+			break;
+		case KeyEvent.VK_LEFT:
+			p.setDx(0);
+			break;
+		case KeyEvent.VK_UP:
+			p.setDy(0);
+			break;
 		}
 	}
 
 	
-	public void keyTyped(KeyEvent arg0) {
+	public void keyTyped(KeyEvent specialpower) {
 		
+		switch(specialpower.getKeyCode()) {
+		case KeyEvent.VK_E:
+			p.dig();
+			break;
+		case KeyEvent.VK_R:
+			p.stamina();
+			break;
+		}
 		
 	}
 

@@ -12,12 +12,12 @@ public class Frame extends JFrame {
 		setSize(400,400);
 		setResizable(false);
 		
-	init();
+	run();
 		
 		
 	}
 	
-	public void init() {
+	public void run() {
 		setLocationRelativeTo(null);
 		
 		setLayout(new GridLayout(1,1,0,0));
