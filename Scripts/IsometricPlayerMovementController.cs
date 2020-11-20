@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class IsometricPlayerMovementController : MonoBehaviour
 {
-    
+
     public float movementSpeed = 1f;
     IsometricCharacterRenderer isoRenderer;
 
@@ -17,7 +17,7 @@ public class IsometricPlayerMovementController : MonoBehaviour
     {
         rbody = GetComponent<Rigidbody2D>();
         isoRenderer = GetComponentInChildren<IsometricCharacterRenderer>();
-        
+
     }
 
     void FixedUpdate()
@@ -35,30 +35,6 @@ public class IsometricPlayerMovementController : MonoBehaviour
         isoRenderer.SetDirection(movement);
         rbody.MovePosition(newPos);
 
-        //GetInput();
     }
-
-    private void GetInput()
-    {
-
-        if (Input.GetButtonDown("Use"))
-        {
-            StartCoroutine(Attack());
-        }
-    }
-
-    public void CallAttack()
-    {
-        StartCoroutine(Attack());
-    }
-
-    private IEnumerator Attack()
-    {
-        isoRenderer.isAttacking = true;
-        yield return new WaitForSeconds(0.57f);
-        //Debug.Log("done casting");
-        isoRenderer.isAttacking = false;
-    }
-
 
 }

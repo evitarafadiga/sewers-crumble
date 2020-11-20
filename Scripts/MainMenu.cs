@@ -24,7 +24,7 @@ public class MainMenu : MonoBehaviour
     public TextMeshProUGUI currencyHitPoints;
     public TextMeshProUGUI currencyShield;
 
-    private void Start() 
+    private void Start()
     {
         Sprite[] thumbnails = Resources.LoadAll<Sprite>("Episodes");
         foreach (Sprite thumbnail in thumbnails)
@@ -49,13 +49,13 @@ public class MainMenu : MonoBehaviour
 
     public void LoadLevel(string levelToLoad)
     {
-        SceneManager.LoadScene (levelToLoad);
+        SceneManager.LoadScene(levelToLoad);
     }
 
-    public void ShowOptionsMenu () 
+    public void ShowOptionsMenu()
     {
-        startMenu.SetActive (false);
-        optionsMenu.SetActive (true);
+        startMenu.SetActive(false);
+        optionsMenu.SetActive(true);
     }
 
     public void ToggleLevelSelection()
@@ -68,23 +68,23 @@ public class MainMenu : MonoBehaviour
         newGameMenu.SetActive(!newGameMenu.activeSelf);
     }
 
-    public void QuitGame ()
+    public void QuitGame()
     {
         Application.Quit();
     }
 
-    public void LookAtMenu ()
+    public void LookAtMenu()
     {
-        optionsMenu.SetActive (false);
-        startMenu.SetActive (true);
+        optionsMenu.SetActive(false);
+        startMenu.SetActive(true);
     }
 
-    public void SaveGame ()
+    public void SaveGame()
     {
         GameManager.Instance.Save();
     }
 
-    public void LoadPlayer ()
+    public void LoadPlayer()
     {
         SaveSystem.LoadPlayer();
     }

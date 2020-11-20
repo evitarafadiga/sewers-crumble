@@ -6,12 +6,12 @@ using UnityEngine.SceneManagement;
 public class OnTriggerLoadLevel : MonoBehaviour
 {
 
-    public GameObject enterText;
+    public GameObject enterLevelText;
     public string levelToLoad;
 
     void Start()
     {
-        enterText.SetActive(false);
+        enterLevelText.SetActive(false);
 
     }
 
@@ -20,7 +20,7 @@ public class OnTriggerLoadLevel : MonoBehaviour
     {
         if (plyr.gameObject.tag == "Player")
         {
-            enterText.SetActive(true);
+            enterLevelText.SetActive(true);
             if (Input.GetButtonDown("Use"))
             {
                 Debug.Log("Entering...");
@@ -32,7 +32,8 @@ public class OnTriggerLoadLevel : MonoBehaviour
     {
         if (plyr.gameObject.tag == "Player")
         {
-            enterText.SetActive(false);
+            enterLevelText.SetActive(false);
         }
+
     }
 }

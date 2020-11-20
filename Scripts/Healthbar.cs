@@ -139,33 +139,9 @@ public class Healthbar : MonoBehaviour
         UpdateShieldbar();
     }
 
-
-    /*
-   void OnTriggerEnter2D(Collider2D other, float heal)
-   {
-
-       switch(other.gameObject.CompareTag("PickUp"))
-       {
-           case ("PickUp"):
-           other.gameObject.SetActive(false);
-           hitpoint += heal;
-           break;
-           case ("ShieldPickup"):
-               other.gameObject.SetActive(false);
-               shieldpoint += heal;
-               break;
-           case ("CoinPickUp"):
-               other.gameObject.SetActive(false);
-               GameManager.Instance.currency += (int)heal;
-               GameManager.Instance.Save();
-               break;
-           default:
-               break;
-
-
-       }
-
-
-   }*/
+    void DoNothing()
+    {
+        return;
+    }
 
 }

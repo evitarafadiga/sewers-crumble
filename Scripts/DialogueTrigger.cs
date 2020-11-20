@@ -5,12 +5,12 @@ using UnityEngine;
 public class DialogueTrigger : MonoBehaviour
 {
     public Dialogue dialogue;
-    public GameObject enterText;
+    public GameObject enterDialogueText;
     public GameObject dialogueBox;
 
     void Start()
     {
-        enterText.SetActive(false);
+        enterDialogueText.SetActive(false);
         dialogueBox.SetActive(false);
     }
 
@@ -23,7 +23,7 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (plyr.gameObject.tag == "Player")
         {
-            enterText.SetActive(true);
+            enterDialogueText.SetActive(true);
             if (Input.GetButtonDown("Use"))
             {
                 dialogueBox.SetActive(true);
@@ -35,7 +35,7 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (plyr.gameObject.tag == "Player")
         {
-            enterText.SetActive(false);
+            enterDialogueText.SetActive(false);
         }
     }
 

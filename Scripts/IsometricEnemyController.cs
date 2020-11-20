@@ -16,6 +16,10 @@ public class IsometricEnemyController : MonoBehaviour
     //public CircleCollider2D circle;
     //IsometricPlayerMovementController beatingPlayer;
 
+    public float attackRate = 2f;
+    float nextAttackTime = 0f;
+
+
     // Start is called before the first frame update
     void Start(){
         rb = this.GetComponent<Rigidbody2D>();
@@ -41,20 +45,36 @@ public class IsometricEnemyController : MonoBehaviour
         rb.MovePosition((Vector2)transform.position + (direction * moveSpeed * Time.deltaTime));
     }
 
-    private IEnumerator Attack()
+    public void CallAttack()
+    {
+        if (Time.time >= nextAttackTime)
+        {
+            Attack();
+            nextAttackTime = Time.time + 1f / attackRate;
+            StartCoroutine(EndAttack());
+
+        }
+    }
+
+    private void Attack()
     {
         isoRenderer.isAttacking = true;
-        yield return new WaitForSeconds(2.57f);
-        //Debug.Log("done casting");
+       
+    }
+
+    private IEnumerator EndAttack()
+    {
+
+        yield return new WaitForSeconds(5.60f);
         isoRenderer.isAttacking = false;
-        //beatingPlayer.health.MyCurrentValue = (-34f);
+
     }
 
     public void OnTriggerStay2D(Collider2D plyr)
     {
         if (plyr.gameObject.tag == "Player")
         {
-            StartCoroutine(Attack());
+            CallAttack();
             //moveCharacter(movement);
         }
 
