@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using UnityEngine;
 using TMPro;
 using System.Diagnostics;
+using UnityEngine.SceneManagement;
 
 public class Healthbar : MonoBehaviour
 {
@@ -137,6 +138,17 @@ public class Healthbar : MonoBehaviour
         }
 
         UpdateShieldbar();
+    }
+
+    private void AddKey()
+    {
+        int y = SceneManager.GetActiveScene().buildIndex;
+        GameManager.Instance.currentSaveState = y;
+    }
+
+    private void AddCoin()
+    {
+        GameManager.Instance.currency +=1;
     }
 
     void DoNothing()
