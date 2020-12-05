@@ -19,7 +19,6 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
-
         if (isDead == false)
         {
             int sceneIndex = SceneManager.GetActiveScene().buildIndex;
@@ -55,12 +54,12 @@ public class Enemy : MonoBehaviour
         //GetComponent<BoxCollider2D>().enabled = false;
         //this.enabled = false;
         //Debug.Log("Morri toda");
-        //Destroy(gameObject);
         //Destroy(villain);
         villain.SetActive(false);
         //this.gameObject.SetActive(false);
-        DeathEffect();
+        //DeathEffect();
         isDead = true;
+        //Destroy(gameObject);
     }
 
     void OnDestroy() // Unloading scene, so save position.

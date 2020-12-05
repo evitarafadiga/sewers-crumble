@@ -111,7 +111,7 @@ public class Healthbar : MonoBehaviour
         UpdateHealthbar();
     }
 
-    private void TakeShieldDamage(float damage)
+    public void TakeShieldDamage(float damage)
     {
         if (shieldpoint > 0)
         {

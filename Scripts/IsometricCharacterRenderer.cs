@@ -9,12 +9,12 @@ public class IsometricCharacterRenderer : MonoBehaviour
     public static readonly string[] staticDirections = { "Static N", "Static NW", "Static W", "Static SW", "Static S", "Static SE", "Static E", "Static NE" };
     public static readonly string[] runDirections = {"Run N", "Run NW", "Run W", "Run SW", "Run S", "Run SE", "Run E", "Run NE"};
     public static readonly string[] attackDirections = {"Attack N", "Attack NW", "Attack W", "Attack SW", "Attack S", "Attack SE", "Attack E", "Attack NE"};
-
+   
     protected Animator animator;
     int lastDirection;
 
     public bool isAttacking = false;
-
+    
     private void Awake()
     {
         //cache the animator component
@@ -46,8 +46,8 @@ public class IsometricCharacterRenderer : MonoBehaviour
         {
             directionArray = attackDirections;
             
-        }       
-
+        }
+        
         //tell the animator to play the requested state
         animator.Play(directionArray[lastDirection]);
     }
