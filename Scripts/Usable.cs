@@ -66,6 +66,15 @@ public class Usable : MonoBehaviour
         {
             SceneManager.LoadScene(levelToLoad);
         }
+        else if (loadLockedLevelTrigger == true)
+        {
+            if (GameManager.Instance.currentSaveState < SceneManager.GetActiveScene().buildIndex)
+            {
+                return;
+            }
+            
+            SceneManager.LoadScene(GameManager.Instance.currentSaveState);
+        }
         else if (enterDialogueText == true)
         {
             dialogueBox.SetActive(true);

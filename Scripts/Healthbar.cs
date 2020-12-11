@@ -18,8 +18,8 @@ public class Healthbar : MonoBehaviour
     public TextMeshProUGUI ratioText;
     public TextMeshProUGUI shieldText;
 
-    private float hitpoint = GameManager.Instance.hitPoints;
-    private float shieldpoint = GameManager.Instance.shieldPoints;
+    private float hitpoint;
+    private float shieldpoint;
     private float maxHitpoint = 150;
 
     public Sprite h1;
@@ -34,6 +34,8 @@ public class Healthbar : MonoBehaviour
 
     private void Start ()
     {
+        hitpoint = (int) GameManager.Instance.hitPoints;
+        shieldpoint = (int) GameManager.Instance.shieldPoints;
         UpdateHealthbar();
         UpdateShieldbar();
     }
@@ -143,7 +145,7 @@ public class Healthbar : MonoBehaviour
     private void AddKey()
     {
         int y = SceneManager.GetActiveScene().buildIndex;
-        GameManager.Instance.currentSaveState = y;
+        GameManager.Instance.currentSaveState = y+1;
     }
 
     private void AddCoin()
