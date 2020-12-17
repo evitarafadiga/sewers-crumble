@@ -1,0 +1,1462 @@
+fileFormatVersion: 2
+guid: a3f1dd569dbf52f428b3c11a8c4cb661
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8757909799097139507
+    second: swinedonist_1_0
+  - first:
+      213: -5244228485215335698
+    second: swinedonist_1_1
+  - first:
+      213: 7950585794918625536
+    second: swinedonist_1_2
+  - first:
+      213: 3618935075568372281
+    second: swinedonist_1_3
+  - first:
+      213: -8178499550275233540
+    second: swinedonist_1_4
+  - first:
+      213: 3660796327538933915
+    second: swinedonist_1_5
+  - first:
+      213: -7843174877484349753
+    second: swinedonist_1_6
+  - first:
+      213: 6781088650067164159
+    second: swinedonist_1_7
+  - first:
+      213: -7209545646232147401
+    second: swinedonist_1_8
+  - first:
+      213: -8996242187220941082
+    second: swinedonist_1_9
+  - first:
+      213: 250457421969573866
+    second: swinedonist_1_10
+  - first:
+      213: 1582149645491594136
+    second: swinedonist_1_11
+  - first:
+      213: -237966841577333265
+    second: swinedonist_1_12
+  - first:
+      213: -4122655302012369446
+    second: swinedonist_1_13
+  - first:
+      213: 6274862240888105091
+    second: swinedonist_1_14
+  - first:
+      213: -5713464678667844722
+    second: swinedonist_1_15
+  - first:
+      213: 7096238606552796206
+    second: swinedonist_1_16
+  - first:
+      213: 1653887480138511668
+    second: swinedonist_1_17
+  - first:
+      213: -349630461872811702
+    second: swinedonist_1_18
+  - first:
+      213: -7304994926926352611
+    second: swinedonist_1_19
+  - first:
+      213: 5129823792226750370
+    second: swinedonist_1_20
+  - first:
+      213: 8159179819313298330
+    second: swinedonist_1_21
+  - first:
+      213: -3309443662030947275
+    second: swinedonist_1_22
+  - first:
+      213: -194399353076486727
+    second: swinedonist_1_23
+  - first:
+      213: 8174364352423705689
+    second: swinedonist_1_24
+  - first:
+      213: 1212201439794425187
+    second: swinedonist_1_25
+  - first:
+      213: -7388709617260962299
+    second: swinedonist_1_26
+  - first:
+      213: 5165243201755489748
+    second: swinedonist_1_27
+  - first:
+      213: -6320157429310235829
+    second: swinedonist_1_28
+  - first:
+      213: -2822911533350590495
+    second: swinedonist_1_29
+  - first:
+      213: -3948078549921069515
+    second: swinedonist_1_30
+  - first:
+      213: 8935076171076231217
+    second: swinedonist_1_31
+  - first:
+      213: 7027715456603162188
+    second: swinedonist_1_32
+  - first:
+      213: -4054234833112599344
+    second: swinedonist_1_33
+  - first:
+      213: -1646577442823697636
+    second: swinedonist_1_34
+  - first:
+      213: -8688452797170572582
+    second: swinedonist_1_35
+  - first:
+      213: -1531203141636164316
+    second: swinedonist_1_36
+  - first:
+      213: 2114706012862904368
+    second: swinedonist_1_37
+  - first:
+      213: -7560297085227025622
+    second: swinedonist_1_38
+  - first:
+      213: -7671831121907909319
+    second: swinedonist_1_39
+  - first:
+      213: -7671020322113827306
+    second: swinedonist_1_40
+  - first:
+      213: 3821322511984760480
+    second: swinedonist_1_41
+  - first:
+      213: -4120909128610103572
+    second: swinedonist_1_42
+  - first:
+      213: -8653389711028743178
+    second: swinedonist_1_43
+  - first:
+      213: -8097725175847805429
+    second: swinedonist_1_44
+  - first:
+      213: 256775965624510665
+    second: swinedonist_1_45
+  - first:
+      213: -4926145350413577635
+    second: swinedonist_1_46
+  - first:
+      213: 2689238068590323136
+    second: swinedonist_1_47
+  - first:
+      213: -3776653577690174185
+    second: swinedonist_1_48
+  - first:
+      213: -8627512380670658591
+    second: swinedonist_1_49
+  - first:
+      213: 610455828501040350
+    second: swinedonist_1_50
+  - first:
+      213: 2634812416267945356
+    second: swinedonist_1_51
+  - first:
+      213: -8662644628118048732
+    second: swinedonist_1_52
+  - first:
+      213: 3850794735635909030
+    second: swinedonist_1_53
+  - first:
+      213: -8403158614705149805
+    second: swinedonist_1_54
+  - first:
+      213: 6656591313213215166
+    second: swinedonist_1_55
+  - first:
+      213: -2274961351730451006
+    second: swinedonist_1_56
+  - first:
+      213: 6960383295391620435
+    second: swinedonist_1_57
+  - first:
+      213: -1291001218620892616
+    second: swinedonist_1_58
+  - first:
+      213: 7339129111804959544
+    second: swinedonist_1_59
+  - first:
+      213: 7121652073403331348
+    second: swinedonist_1_60
+  - first:
+      213: -1971673456085537804
+    second: swinedonist_1_61
+  - first:
+      213: 650767743639002764
+    second: swinedonist_1_62
+  - first:
+      213: 4469052612258481554
+    second: swinedonist_1_63
+  - first:
+      213: 2338951935938191722
+    second: swinedonist_1_64
+  - first:
+      213: -7109823104201145019
+    second: swinedonist_1_65
+  - first:
+      213: 7404369464607284394
+    second: swinedonist_1_66
+  - first:
+      213: -5582159685359904429
+    second: swinedonist_1_67
+  - first:
+      213: -7946051751462576963
+    second: swinedonist_1_68
+  - first:
+      213: 5897223411598126873
+    second: swinedonist_1_69
+  - first:
+      213: -283120411382976501
+    second: swinedonist_1_70
+  - first:
+      213: -5829616990079798675
+    second: swinedonist_1_71
+  - first:
+      213: 2821542704202846914
+    second: swinedonist_1_72
+  - first:
+      213: 1050745930496221468
+    second: swinedonist_1_73
+  - first:
+      213: -4236316395748937247
+    second: swinedonist_1_74
+  - first:
+      213: 7629665880928341120
+    second: swinedonist_1_75
+  - first:
+      213: -3325011330727377454
+    second: swinedonist_1_76
+  - first:
+      213: -7926734004497142020
+    second: swinedonist_1_77
+  - first:
+      213: 7355340494686852038
+    second: swinedonist_1_78
+  - first:
+      213: 4196912337457249096
+    second: swinedonist_1_79
+  - first:
+      213: 7367552737464962691
+    second: swinedonist_1_80
+  - first:
+      213: 7712777095226248644
+    second: swinedonist_1_81
+  - first:
+      213: -163011223034523817
+    second: swinedonist_1_82
+  - first:
+      213: -3694599819079282583
+    second: swinedonist_1_83
+  - first:
+      213: -5940681532753342279
+    second: swinedonist_1_84
+  - first:
+      213: 8359133251134900696
+    second: swinedonist_1_85
+  - first:
+      213: 2762379151899910112
+    second: swinedonist_1_86
+  - first:
+      213: 274059579158513015
+    second: swinedonist_1_87
+  - first:
+      213: -4919608583169002070
+    second: swinedonist_1_88
+  - first:
+      213: -4556936374654709730
+    second: swinedonist_1_89
+  - first:
+      213: 1908177886372484009
+    second: swinedonist_1_90
+  - first:
+      213: -4811687848494262414
+    second: swinedonist_1_91
+  - first:
+      213: 3239283655768159124
+    second: swinedonist_1_92
+  - first:
+      213: 5988786937594785836
+    second: swinedonist_1_93
+  - first:
+      213: 725628996898108082
+    second: swinedonist_1_94
+  - first:
+      213: 4003863084184347986
+    second: swinedonist_1_95
+  - first:
+      213: -1745618068999692814
+    second: swinedonist_1_96
+  - first:
+      213: -6909857028282936000
+    second: swinedonist_1_97
+  - first:
+      213: 9147174670643568297
+    second: swinedonist_1_98
+  - first:
+      213: -2218645991603757185
+    second: swinedonist_1_99
+  - first:
+      213: 3488353035593736254
+    second: swinedonist_1_100
+  - first:
+      213: 7673886564116520758
+    second: swinedonist_1_101
+  - first:
+      213: 1531438976295599360
+    second: swinedonist_1_102
+  - first:
+      213: -3633401590740245984
+    second: swinedonist_1_103
+  - first:
+      213: 3458389464144686987
+    second: swinedonist_1_104
+  - first:
+      213: -8060767525246776475
+    second: swinedonist_1_105
+  - first:
+      213: -9047784832467116452
+    second: swinedonist_1_106
+  - first:
+      213: 4870845407807560085
+    second: swinedonist_1_107
+  - first:
+      213: -3483162237469029555
+    second: swinedonist_1_108
+  - first:
+      213: -2079862854872387031
+    second: swinedonist_1_109
+  - first:
+      213: 5546168074009853223
+    second: swinedonist_1_110
+  - first:
+      213: -5235188206243505129
+    second: swinedonist_1_111
+  - first:
+      213: 5775477954094124153
+    second: swinedonist_1_112
+  - first:
+      213: 5098542099523650918
+    second: swinedonist_1_113
+  - first:
+      213: 4597392986183728431
+    second: swinedonist_1_114
+  - first:
+      213: -9008549036178396250
+    second: swinedonist_1_115
+  - first:
+      213: -1439869796283870614
+    second: swinedonist_1_116
+  - first:
+      213: 7963815050156386889
+    second: swinedonist_1_117
+  - first:
+      213: -4333332703073253668
+    second: swinedonist_1_118
+  - first:
+      213: -8672644319437910964
+    second: swinedonist_1_119
+  - first:
+      213: 2498017299371589902
+    second: swinedonist_1_120
+  - first:
+      213: 5324588816364540128
+    second: swinedonist_1_121
+  - first:
+      213: -6330710991746118762
+    second: swinedonist_1_122
+  - first:
+      213: -6874066634675943960
+    second: swinedonist_1_123
+  - first:
+      213: 7044011024933165228
+    second: swinedonist_1_124
+  - first:
+      213: 1416686034847413254
+    second: swinedonist_1_125
+  - first:
+      213: 2666403320324329485
+    second: swinedonist_1_126
+  - first:
+      213: -2534527340195119226
+    second: swinedonist_1_127
+  - first:
+      213: 733970912785500921
+    second: swinedonist_1_128
+  - first:
+      213: -110440152907443969
+    second: swinedonist_1_129
+  - first:
+      213: 1816638600994700063
+    second: swinedonist_1_130
+  - first:
+      213: -8637535055786089967
+    second: swinedonist_1_131
+  - first:
+      213: -1688677341641341733
+    second: swinedonist_1_132
+  - first:
+      213: 7731469348578501804
+    second: swinedonist_1_133
+  - first:
+      213: -5574097707519335353
+    second: swinedonist_1_134
+  - first:
+      213: -5426034445654684123
+    second: swinedonist_1_135
+  - first:
+      213: -8078831076075441
+    second: swinedonist_1_136
+  - first:
+      213: -8794118938440852902
+    second: swinedonist_1_137
+  - first:
+      213: 3741186611681844287
+    second: swinedonist_1_138
+  - first:
+      213: 4597148155126942332
+    second: swinedonist_1_139
+  - first:
+      213: -8887077873057978832
+    second: swinedonist_1_140
+  - first:
+      213: 4136042120543290379
+    second: swinedonist_1_141
+  - first:
+      213: 5338661906290917027
+    second: swinedonist_1_142
+  - first:
+      213: -5396995714276179762
+    second: swinedonist_1_143
+  - first:
+      213: -140346160307173098
+    second: swinedonist_1_144
+  - first:
+      213: 6769445549377468021
+    second: swinedonist_1_145
+  - first:
+      213: 5904526728841727198
+    second: swinedonist_1_146
+  - first:
+      213: 1235353348634449591
+    second: swinedonist_1_147
+  - first:
+      213: -2136946572430278167
+    second: swinedonist_1_148
+  - first:
+      213: 1849112206520686423
+    second: swinedonist_1_149
+  - first:
+      213: -5884708702430117904
+    second: swinedonist_1_150
+  - first:
+      213: 3970396117416130006
+    second: swinedonist_1_151
+  - first:
+      213: -1293400266047770781
+    second: swinedonist_1_152
+  - first:
+      213: 1422213209938752343
+    second: swinedonist_1_153
+  - first:
+      213: 2845560709277044317
+    second: swinedonist_1_154
+  - first:
+      213: 7475773106550586393
+    second: swinedonist_1_155
+  - first:
+      213: 4272070008778886220
+    second: swinedonist_1_156
+  - first:
+      213: -2475794258982698209
+    second: swinedonist_1_157
+  - first:
+      213: 4949609472863594042
+    second: swinedonist_1_158
+  - first:
+      213: 5440258301343614649
+    second: swinedonist_1_159
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: swinedonist_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33109169f885a8970800000000000000
+      internalID: 8757909799097139507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea41c15af1c837b0800000000000000
+      internalID: -5244228485215335698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001346e08a7265e60800000000000000
+      internalID: 7950585794918625536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a447cf64a093230800000000000000
+      internalID: 3618935075568372281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf817269df1208e80800000000000000
+      internalID: -8178499550275233540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90430a3dd2cdc230800000000000000
+      internalID: 3660796327538933915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6074cf002772390800000000000000
+      internalID: -7843174877484349753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbbfa113344b1e50800000000000000
+      internalID: 6781088650067164159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a6e5cbe6c82fb90800000000000000
+      internalID: -7209545646232147401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e60055156de62380800000000000000
+      internalID: -8996242187220941082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae74bd3c2bdc97300800000000000000
+      internalID: 250457421969573866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893690158bce4f510800000000000000
+      internalID: 1582149645491594136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed167b1b6292bcf0800000000000000
+      internalID: -237966841577333265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad50c2878d269c6c0800000000000000
+      internalID: -4122655302012369446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388a5a266f9c41750800000000000000
+      internalID: 6274862240888105091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_15
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83034f5522b5b0b0800000000000000
+      internalID: -5713464678667844722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2c0ef84a67ea7260800000000000000
+      internalID: 7096238606552796206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4353f1886e9c3f610800000000000000
+      internalID: 1653887480138511668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a415a6582fcd52bf0800000000000000
+      internalID: -349630461872811702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f268641d17f9a90800000000000000
+      internalID: -7304994926926352611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2afc5006f8bc03740800000000000000
+      internalID: 5129823792226750370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b74b401da3b3170800000000000000
+      internalID: 8159179819313298330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c3a78068e7212d0800000000000000
+      internalID: -3309443662030947275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd6f4f71da5d4df0800000000000000
+      internalID: -194399353076486727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95cb4d2a11d217170800000000000000
+      internalID: 8174364352423705689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36de92779ca92d010800000000000000
+      internalID: 1212201439794425187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ed5aa00c7067990800000000000000
+      internalID: -7388709617260962299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5232b4351aea740800000000000000
+      internalID: 5165243201755489748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bda6dbd4a4a48a0800000000000000
+      internalID: -6320157429310235829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_29
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7e846bae003d8d0800000000000000
+      internalID: -2822911533350590495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5368d960a7b9539c0800000000000000
+      internalID: -3948078549921069515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_31
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1306e020074cffb70800000000000000
+      internalID: 8935076171076231217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c468a5d29f5778160800000000000000
+      internalID: 7027715456603162188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4fe4846e67cb7c0800000000000000
+      internalID: -4054234833112599344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b82592a8e2629e0800000000000000
+      internalID: -1646577442823697636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad226e0e63a6c6780800000000000000
+      internalID: -8688452797170572582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42570d7fad210cae0800000000000000
+      internalID: -1531203141636164316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_37
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038731d1ae1f85d10800000000000000
+      internalID: 2114706012862904368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b3f9e6bdd641790800000000000000
+      internalID: -7560297085227025622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: swinedonist_1_39
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d74e1ed3e288590800000000000000
+      internalID: -7671831121907909319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

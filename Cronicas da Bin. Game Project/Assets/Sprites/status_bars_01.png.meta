@@ -1,0 +1,394 @@
+fileFormatVersion: 2
+guid: 3a8100915e186924e880e21c69c9547c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1012061641380408219
+    second: status_bars_01_0
+  - first:
+      213: -2277841386572953627
+    second: status_bars_01_1
+  - first:
+      213: 3510812692932905232
+    second: status_bars_01_2
+  - first:
+      213: 2047473459977540465
+    second: status_bars_01_3
+  - first:
+      213: -2353364238597853212
+    second: status_bars_01_4
+  - first:
+      213: 8370110309890398397
+    second: status_bars_01_5
+  - first:
+      213: -7192609479837988768
+    second: status_bars_01_6
+  - first:
+      213: 3601440969248811498
+    second: status_bars_01_7
+  - first:
+      213: -4970860303727363937
+    second: status_bars_01_8
+  - first:
+      213: 7025199095867658604
+    second: status_bars_01_9
+  - first:
+      213: -5507676660820259705
+    second: status_bars_01_10
+  - first:
+      213: -6008040131699298537
+    second: status_bars_01_11
+  - first:
+      213: 5650447338632114839
+    second: status_bars_01_12
+  - first:
+      213: 3012932081588276095
+    second: status_bars_01_13
+  - first:
+      213: -1564591857193862924
+    second: status_bars_01_14
+  - first:
+      213: -8978464209076670854
+    second: status_bars_01_15
+  - first:
+      213: -4198878921668176227
+    second: status_bars_01_16
+  - first:
+      213: -5719356670012400698
+    second: status_bars_01_17
+  - first:
+      213: -2942002825138303708
+    second: status_bars_01_18
+  - first:
+      213: -8696463527091119589
+    second: status_bars_01_19
+  - first:
+      213: -3308487588308658594
+    second: status_bars_01_20
+  - first:
+      213: -827806638408102299
+    second: status_bars_01_21
+  - first:
+      213: -7430880000624693856
+    second: status_bars_01_22
+  - first:
+      213: -298847557209509458
+    second: status_bars_01_23
+  - first:
+      213: 4083629648862042890
+    second: status_bars_01_24
+  - first:
+      213: -33456012073749068
+    second: status_bars_01_25
+  - first:
+      213: -1416997737580109312
+    second: status_bars_01_26
+  - first:
+      213: -7554288524621646497
+    second: status_bars_01_27
+  - first:
+      213: 4181874915867030622
+    second: status_bars_01_28
+  - first:
+      213: -1786902271514473410
+    second: status_bars_01_29
+  - first:
+      213: -979905089071796888
+    second: status_bars_01_30
+  - first:
+      213: -1263168037449322310
+    second: status_bars_01_31
+  - first:
+      213: 4078304102254294910
+    second: status_bars_01_32
+  - first:
+      213: 7857902272555705479
+    second: status_bars_01_33
+  - first:
+      213: 8804245497888259835
+    second: status_bars_01_34
+  - first:
+      213: -8095298680870220018
+    second: status_bars_01_35
+  - first:
+      213: 3428416898044106999
+    second: status_bars_01_36
+  - first:
+      213: -8380956633037964361
+    second: status_bars_01_37
+  - first:
+      213: -1600739376260330795
+    second: status_bars_01_38
+  - first:
+      213: -936805301800489896
+    second: status_bars_01_39
+  - first:
+      213: 2552057439120898463
+    second: status_bars_01_40
+  - first:
+      213: 5578974931882786718
+    second: status_bars_01_41
+  - first:
+      213: 9116477910514054632
+    second: status_bars_01_42
+  - first:
+      213: 9149921083354859796
+    second: status_bars_01_43
+  - first:
+      213: 4293443447863505817
+    second: status_bars_01_44
+  - first:
+      213: 4320971622957663467
+    second: status_bars_01_45
+  - first:
+      213: -1234927254133077060
+    second: status_bars_01_46
+  - first:
+      213: -8698963411255615994
+    second: status_bars_01_47
+  - first:
+      213: -830099100972865987
+    second: status_bars_01_48
+  - first:
+      213: 6057525243855861853
+    second: status_bars_01_49
+  - first:
+      213: -7769457473729508206
+    second: status_bars_01_50
+  - first:
+      213: -9154081026022376303
+    second: status_bars_01_51
+  - first:
+      213: 2666697195887504149
+    second: status_bars_01_52
+  - first:
+      213: 6810020226653276796
+    second: status_bars_01_53
+  - first:
+      213: -8863137975565935545
+    second: status_bars_01_54
+  - first:
+      213: 3567914675712430009
+    second: status_bars_01_55
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: status_bars_01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 236
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b274163b09b0e00800000000000000
+      internalID: 1012061641380408219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status_bars_01_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 130
+        width: 232
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e7c2a2d35b7360e0800000000000000
+      internalID: -2277841386572953627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status_bars_01_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 66
+        width: 232
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019c23b0b89e8b030800000000000000
+      internalID: 3510812692932905232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: status_bars_01_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 232
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173500d83461a6c10800000000000000
+      internalID: 2047473459977540465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

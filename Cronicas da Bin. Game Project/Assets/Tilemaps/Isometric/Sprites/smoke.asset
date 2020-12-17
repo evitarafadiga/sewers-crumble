@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: smoke
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: -5514459158163901744, guid: ca55dc7c45d22cb478cd0d3e8a780429, type: 3}
+  - {fileID: 2321492058279814315, guid: ca55dc7c45d22cb478cd0d3e8a780429, type: 3}
+  - {fileID: -4234331143982308543, guid: ca55dc7c45d22cb478cd0d3e8a780429, type: 3}
+  - {fileID: 7119243343403683269, guid: ca55dc7c45d22cb478cd0d3e8a780429, type: 3}
+  - {fileID: -8172196250816640692, guid: ca55dc7c45d22cb478cd0d3e8a780429, type: 3}
+  - {fileID: 8070006657912714720, guid: ca55dc7c45d22cb478cd0d3e8a780429, type: 3}
+  m_MinSpeed: 4
+  m_MaxSpeed: 6
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 0
