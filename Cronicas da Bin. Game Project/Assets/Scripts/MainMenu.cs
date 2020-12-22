@@ -14,6 +14,7 @@ public class MainMenu : MonoBehaviour
     public GameObject currencyMenu;
 
     public GameObject levelButtonPrefab;
+    public GameObject levelButtonImage;
     public GameObject levelButtonContainer;
     public GameObject levelSelectionMenu;
     public GameObject newGameMenu;
@@ -30,8 +31,14 @@ public class MainMenu : MonoBehaviour
         foreach (Sprite thumbnail in thumbnails)
         {
             GameObject container = Instantiate(levelButtonPrefab) as GameObject;
-            container.GetComponent<Image>().sprite = thumbnail;
+            //container.GetComponentInChildren<Image>().sprite = thumbnail;
             container.transform.SetParent(levelButtonContainer.transform, false);
+
+            GameObject billboard = Instantiate(levelButtonImage) as GameObject;
+            levelButtonPrefab.transform.Find("billboard").GetComponent<Image>().sprite = thumbnail;
+            //billboard.GetComponent<Image>().sprite = thumbnail;
+            //levelButtonImage.transform.SetParent(levelButtonImage.transform, false);
+
 
             string sceneName = thumbnail.name;
             container.GetComponent<Button>().onClick.AddListener(() => LoadLevel(sceneName));
