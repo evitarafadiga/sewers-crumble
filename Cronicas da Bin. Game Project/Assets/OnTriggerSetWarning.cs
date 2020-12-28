@@ -3,28 +3,27 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class OnTriggerLoadLevel : MonoBehaviour
+public class OnTriggerSetWarning : MonoBehaviour
 {
-
-    public GameObject enterLevelText;
-    public string levelToLoad;
     public GameObject warning;
+    public string levelToLoad;
 
     void Start()
     {
-        enterLevelText.SetActive(false);
-
+        warning.SetActive(false);
     }
 
     // Update is called once per frame
-    void OnTriggerStay2D(Collider2D plyr)
+    void OnTriggerEnter2D(Collider2D plyr)
     {
         if (plyr.gameObject.tag == "Player")
         {
-            enterLevelText.SetActive(true);
+            warning.SetActive(true);
             if (Input.GetButtonDown("Use"))
             {
-                Debug.Log("Entering...");
+            	if (levelToLoad == null)
+            	SceneManager.LoadScene(GameManager.Instance.currentSaveState);
+
                 SceneManager.LoadScene(levelToLoad);
             }
         }
@@ -33,13 +32,8 @@ public class OnTriggerLoadLevel : MonoBehaviour
     {
         if (plyr.gameObject.tag == "Player")
         {
-            enterLevelText.SetActive(false);
+            warning.SetActive(false);
         }
 
-    }
-
-    public void ToggleWarning()
-    {
-        warning.SetActive(!warning.activeSelf);
     }
 }

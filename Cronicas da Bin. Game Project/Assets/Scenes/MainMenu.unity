@@ -676,7 +676,7 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: -6149744328071411781, guid: 600f5e6fcaceebd429c764ac2798d0df,
+    m_PressedSprite: {fileID: -256206125088095473, guid: 600f5e6fcaceebd429c764ac2798d0df,
       type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}

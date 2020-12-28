@@ -7,6 +7,8 @@ public class PauseMenu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
+    public GameObject warning;
+    public string levelToLoad;
 
     void Update () {
     	if (Input.GetKeyDown(KeyCode.Escape))
@@ -55,5 +57,20 @@ public class PauseMenu : MonoBehaviour
     public void LoadPlayer()
     {
         SaveSystem.LoadPlayer();
+    }
+
+    public void ToggleWarning()
+    {
+        warning.SetActive(!warning.activeSelf);
+    }
+
+    public void LoadLevel(string levelToLoad)
+    {
+        SceneManager.LoadScene(levelToLoad);
+    }
+
+    public void LoadLevelByIndex(int index)
+    {
+        SceneManager.LoadScene(index);
     }
 }

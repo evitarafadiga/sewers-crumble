@@ -40,8 +40,10 @@ public class MainMenu : MonoBehaviour
             //levelButtonImage.transform.SetParent(levelButtonImage.transform, false);
 
 
-            string sceneName = thumbnail.name;
-            container.GetComponent<Button>().onClick.AddListener(() => LoadLevel(sceneName));
+            // string sceneName = thumbnail.name;
+            // container.GetComponent<Button>().onClick.AddListener(() => LoadLevel(sceneName));
+
+            container.GetComponent<Button>().onClick.AddListener(() => LoadLevelByIndex(GameManager.Instance.currentSaveState));
 
         }
 
@@ -57,6 +59,11 @@ public class MainMenu : MonoBehaviour
     public void LoadLevel(string levelToLoad)
     {
         SceneManager.LoadScene(levelToLoad);
+    }
+
+    public void LoadLevelByIndex(int index)
+    {
+        SceneManager.LoadScene(index);
     }
 
     public void ShowOptionsMenu()
