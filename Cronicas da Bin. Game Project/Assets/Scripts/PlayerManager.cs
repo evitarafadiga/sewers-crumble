@@ -11,6 +11,7 @@ public class PlayerManager : MonoBehaviour
     void Awake ()
     {
     	instance = this;
+        FindObjectOfType<AudioManager>().Play("SewerTheme");
     }
 
     #endregion
