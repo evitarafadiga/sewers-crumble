@@ -80,11 +80,8 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
     {
         if (magnitude > deadZone)
         {
-            FindObjectOfType<AudioManager>().Play("FootstepsCommon");
             if (magnitude > 1)
-            {
-                input = normalised;
-            }
+            input = normalised;
         }
         else
             input = Vector2.zero;

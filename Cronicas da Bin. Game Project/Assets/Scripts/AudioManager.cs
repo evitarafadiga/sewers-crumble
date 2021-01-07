@@ -68,4 +68,25 @@ public class AudioManager : MonoBehaviour
         s.source.Stop();
     }
 
+    public void StartFade(string sound, float duration, float targetVolume)
+    {
+        Sound s = Array.Find(sounds, item => item.name == sound);
+        if (s == null)
+        {
+            Debug.LogWarning("Sound: " + name + " not found!");
+            return;
+        }
+
+        float currentTime = 0;
+        float start = s.source.volume;
+
+        while (currentTime < duration)
+        {
+            currentTime += Time.deltaTime;
+            s.source.volume = Mathf.Lerp(start, targetVolume, currentTime / duration);
+            //return null;
+        }
+        //return;
+    }
+
 }

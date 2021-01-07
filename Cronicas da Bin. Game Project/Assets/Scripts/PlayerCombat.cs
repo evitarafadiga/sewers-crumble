@@ -83,4 +83,9 @@ public class PlayerCombat : MonoBehaviour
 
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
+
+    void Footsteps()
+    {
+        FindObjectOfType<AudioManager>().Play("FootstepsCommon");
+    }
 }

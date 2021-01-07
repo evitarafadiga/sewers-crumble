@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -17,7 +17,6 @@ public class IsometricPlayerMovementController : MonoBehaviour
     {
         rbody = GetComponent<Rigidbody2D>();
         isoRenderer = GetComponentInChildren<IsometricCharacterRenderer>();
-
     }
 
     void FixedUpdate()
@@ -35,5 +34,4 @@ public class IsometricPlayerMovementController : MonoBehaviour
         isoRenderer.SetDirection(movement);
         rbody.MovePosition(newPos);
     }
-
 }
