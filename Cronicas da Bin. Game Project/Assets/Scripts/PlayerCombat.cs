@@ -10,6 +10,7 @@ public class PlayerCombat : MonoBehaviour
     public Transform attackPoint;
     public LayerMask enemyLayer;
     public LayerMask usableLayer;
+    public LayerMask hitBoxLayer;
 
     public float attackRange = 0.5f;
     public int attackDamage = 30;
@@ -20,7 +21,6 @@ public class PlayerCombat : MonoBehaviour
     protected virtual void Awake()
     {
         isoRenderer = GetComponentInChildren<IsometricCharacterRenderer>();
-
     }
 
     public void CallAttack()
@@ -60,10 +60,15 @@ public class PlayerCombat : MonoBehaviour
         animator.SetTrigger("Attack");
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayer);
+        Collider2D[] hitBoxes = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, hitBoxLayer);
 
         foreach (Collider2D enemy in hitEnemies)
         {
             enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
+        }
+        foreach (Collider2D hitbox in hitBoxes)
+        {
+            hitbox.GetComponent<Hitbox>().TakeDamage(attackDamage);
         }
 
     }

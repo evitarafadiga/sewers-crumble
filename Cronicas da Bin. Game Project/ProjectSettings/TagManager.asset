@@ -8,6 +8,7 @@ TagManager:
   - ShieldPickup
   - CoinPickup
   - Enemy
+  - Hitbox
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - 
   - Enemies
   - Usables
-  - 
+  - Hitbox
   - 
   - 
   - 
