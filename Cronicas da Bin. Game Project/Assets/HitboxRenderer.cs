@@ -16,7 +16,7 @@ public class HitboxRenderer : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    public void SetState(float health)
+    public void SetState(int health)
     {
     	string[] statesArray = null;
 
@@ -25,22 +25,22 @@ public class HitboxRenderer : MonoBehaviour
     	animator.Play(statesArray[lastState]);
     }
 
-    public static int StateToIndex (float health) 
+    public static int StateToIndex (int health) 
     {
     	float ratio = health / maxHealth;
 
     	if (ratio*100 >= 80)
-    	return 1;
+    	return 0;
     	else if (ratio*100 >= 60)
-    	return 2;
-    	else if (ratio*100 >= 40)
-    	return 3;
-    	else if (ratio*100 >= 20)
-    	return 4;
-    	else if (health <= 0)
-    	return 5;
-    	else
     	return 1;
+    	else if (ratio*100 >= 40)
+    	return 2;
+    	else if (ratio*100 >= 20)
+    	return 3;
+    	else if (health <= 0)
+    	return 4;
+    	else
+    	return 0;
     }
 
     public static int[] AnimatorStringArrayToHashArray(string[] animationArray)

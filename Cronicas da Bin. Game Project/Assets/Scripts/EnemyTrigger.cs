@@ -27,7 +27,7 @@ public class EnemyTrigger : MonoBehaviour
         yield return new WaitForSeconds(0.4f);
 
         //chamando audio
-        FindObjectOfType<AudioManager>().Play("PigAttack");
+        //FindObjectOfType<AudioManager>().Play("PigAttack");
         //Debug.Log("done casting");
         isoRenderer.isAttacking = false;
     }

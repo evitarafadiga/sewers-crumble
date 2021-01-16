@@ -40,7 +40,7 @@ public class Hitbox : MonoBehaviour
     {
         currentHealth -= damage;
 
-        hitRenderer.SetState(currentHealth);        
+        hitRenderer.SetState((int) currentHealth);        
 
         if (currentHealth <= 0)
         {
