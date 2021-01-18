@@ -2,16 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System.Diagnostics;
 
 public class Usable : MonoBehaviour
 {
     public GameObject enterLevelText;
     public string levelToLoad;
 
+    public Animator flagAnimator;
 
     public bool dialogueTrigger = false;
     public bool loadLevelTrigger = false;
     public bool loadLockedLevelTrigger = false;
+    public bool saveGame = false;
     public Dialogue dialogue;
     public GameObject enterDialogueText;
     public GameObject dialogueBox;
@@ -79,6 +82,11 @@ public class Usable : MonoBehaviour
         {
             dialogueBox.SetActive(true);
             FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        }
+        else if (saveGame == true)
+        {
+            GameManager.Instance.Save();
+            flagAnimator.Play("Trumbling");   
         }
 
     }
