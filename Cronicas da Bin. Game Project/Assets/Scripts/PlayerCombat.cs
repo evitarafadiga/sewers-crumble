@@ -18,6 +18,10 @@ public class PlayerCombat : MonoBehaviour
     public float attackRate = 2f;
     float nextAttackTime = 0f;
 
+    int soundIndex;
+    public static readonly string[] oincs = { "Oinc1", "Oinc2", "Oinc3", "Oinc4", "Oinc5", "Oinc6", "Oinc7", "Oinc8", "Oinc9", "Oinc10", "Oinc11", "Oinc12", "Oinc13", "Oinc14" };
+    public static readonly string[] dracopea = { "Pea1", "Pea2", "Pea3", "Pea4" };
+
     protected virtual void Awake()
     {
         isoRenderer = GetComponentInChildren<IsometricCharacterRenderer>();
@@ -94,5 +98,24 @@ public class PlayerCombat : MonoBehaviour
     void Footsteps()
     {
         FindObjectOfType<AudioManager>().Play("FootstepsCommon");
+    }
+
+    void Oinc () {
+
+        for (int i = 0 ; i < 1 ; i++) {
+            soundIndex = Random.Range(0,oincs.Length);
+            FindObjectOfType<AudioManager>().Play(oincs[soundIndex]);
+        }   
+    }
+
+    void Yay () {
+        FindObjectOfType<AudioManager>().Play("Yay");
+    }
+
+    void Dracopea () {
+        for (int i = 0 ; i < 1 ; i++) {
+            soundIndex = Random.Range(0,dracopea.Length);
+            FindObjectOfType<AudioManager>().Play(dracopea[soundIndex]);
+        }   
     }
 }

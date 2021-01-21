@@ -488,9 +488,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enterLevelText: {fileID: 8809664089978124999}
   levelToLoad: 
+  flagAnimator: {fileID: 0}
   dialogueTrigger: 1
   loadLevelTrigger: 0
   loadLockedLevelTrigger: 0
+  saveGame: 0
   dialogue:
     name: 
     sentences:
@@ -2485,9 +2487,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enterLevelText: {fileID: 1217613377}
   levelToLoad: 
+  flagAnimator: {fileID: 0}
   dialogueTrigger: 1
   loadLevelTrigger: 0
   loadLockedLevelTrigger: 0
+  saveGame: 0
   dialogue:
     name: Carta
     sentences:
@@ -3590,6 +3594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2521074884635432756}
   moveSpeed: 2
+  nullAtkAnim: 0
   attackRate: 2
 --- !u!195 &964013772
 NavMeshAgent:
@@ -4495,9 +4500,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enterLevelText: {fileID: 0}
   levelToLoad: 
+  flagAnimator: {fileID: 0}
   dialogueTrigger: 0
   loadLevelTrigger: 0
   loadLockedLevelTrigger: 0
+  saveGame: 0
   dialogue:
     name: 
     sentences: []
@@ -4758,6 +4765,7 @@ GameObject:
   - component: {fileID: 1329298462}
   - component: {fileID: 1329298464}
   - component: {fileID: 1329298463}
+  - component: {fileID: 1329298465}
   m_Layer: 8
   m_Name: CharRender
   m_TagString: Untagged
@@ -4863,6 +4871,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1329298465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329298460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e962657e604254384c1faf288e2421, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  attackPoint: {fileID: 0}
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  usableLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  hitboxLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  attackRange: 0.5
+  attackDamage: 30
+  attackRate: 2
 --- !u!1 &1336882797
 GameObject:
   m_ObjectHideFlags: 0
@@ -5195,6 +5229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2521074884635432756}
   moveSpeed: 0.3
+  nullAtkAnim: 1
   attackRate: 5
 --- !u!210 &1349531474
 SortingGroup:
@@ -6188,9 +6223,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enterLevelText: {fileID: 8809664089978124999}
   levelToLoad: Scene_02
+  flagAnimator: {fileID: 0}
   dialogueTrigger: 0
   loadLevelTrigger: 1
   loadLockedLevelTrigger: 0
+  saveGame: 0
   dialogue:
     name: Teste
     sentences: []

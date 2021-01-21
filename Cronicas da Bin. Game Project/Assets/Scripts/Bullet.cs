@@ -11,6 +11,20 @@ public class Bullet : MonoBehaviour
     public GameObject hitEffect;
     public float damage = 5f;
 
+    int soundIndex;
+
+    public static readonly string[] peas = { "Pea5", "Pea6", "Pea7", "Pea8", "Pea9", "Pea10"};
+
+    void Start () 
+    {
+        Peas();
+    }
+
+    void Update () 
+    {
+        Destroy (this.gameObject, 5);
+    }
+
     void OnColliderEnter2D(Collider2D col)
     {
         GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);
@@ -26,7 +40,13 @@ public class Bullet : MonoBehaviour
 
         Destroy(effect, 5f);
         Destroy(gameObject, 1f);
+    }
 
+    public void Peas () {
+        for (int i = 0 ; i < 1 ; i++) {
+            soundIndex = Random.Range(0,peas.Length);
+            FindObjectOfType<AudioManager>().Play(peas[soundIndex]);
+        }   
     }
 
 }

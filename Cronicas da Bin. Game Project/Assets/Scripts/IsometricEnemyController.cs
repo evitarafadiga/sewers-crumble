@@ -16,6 +16,8 @@ public class IsometricEnemyController : MonoBehaviour
     //public CircleCollider2D circle;
     //IsometricPlayerMovementController beatingPlayer;
 
+    public bool nullAtkAnim = false;
+
     public float attackRate = 2f;
     float nextAttackTime = 0f;
 
@@ -58,6 +60,8 @@ public class IsometricEnemyController : MonoBehaviour
 
     private void Attack()
     {
+        if (nullAtkAnim == true) 
+        return;
         isoRenderer.isAttacking = true;
        
     }
