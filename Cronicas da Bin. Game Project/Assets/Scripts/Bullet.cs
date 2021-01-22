@@ -13,7 +13,7 @@ public class Bullet : MonoBehaviour
 
     int soundIndex;
 
-    public static readonly string[] peas = { "Pea5", "Pea6", "Pea7", "Pea8", "Pea9", "Pea10"};
+    public static readonly string[] peas = { "Pea5", "Pea6", "Pea7", "Pea8", "Pea9", "Pea10" };
 
     void Start () 
     {

@@ -64,18 +64,16 @@ public class PlayerCombat : MonoBehaviour
         animator.SetTrigger("Attack");
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayer);
-        //Collider2D[] hitBoxes = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, hitboxLayer);
+        Collider2D[] hitBoxes = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, hitboxLayer);
 
         foreach (Collider2D enemy in hitEnemies)
         {
             enemy.GetComponent<Enemy>().TakeDamage(attackDamage);
-        }
-        /*
+        } 
         foreach (Collider2D hitbox in hitBoxes)
         {
             hitbox.GetComponent<Hitbox>().TakeDamage(attackDamage);
         }
-        */
 
     }
 
@@ -117,5 +115,10 @@ public class PlayerCombat : MonoBehaviour
             soundIndex = Random.Range(0,dracopea.Length);
             FindObjectOfType<AudioManager>().Play(dracopea[soundIndex]);
         }   
+    }
+
+    void DestroyGameObject ()
+    {
+        Destroy (gameObject);
     }
 }

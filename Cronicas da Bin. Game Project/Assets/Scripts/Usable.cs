@@ -19,13 +19,6 @@ public class Usable : MonoBehaviour
     public GameObject enterDialogueText;
     public GameObject dialogueBox;
 
-    void Start()
-    {
-        enterLevelText.SetActive(false);
-        enterDialogueText.SetActive(false);
-        dialogueBox.SetActive(false);
-    }
-
     public void TriggerDialogue()
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);

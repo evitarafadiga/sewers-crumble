@@ -5,19 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Hitbox : MonoBehaviour
 {
-	public GameObject hitBox;
-
-	HitboxRenderer hitRenderer;
+    public Animator animator;
 
 	public float currentHealth;
-	//private float maxHealth = 150;
+	private float maxHealth = 150;
 	private bool wasOpen = false;
-
-
-	protected virtual void Awake ()
-	{
-		hitRenderer = GetComponentInChildren<HitboxRenderer>();
-	}
 
     void Start()
     {
@@ -26,35 +18,44 @@ public class Hitbox : MonoBehaviour
             int sceneIndex = SceneManager.GetActiveScene().buildIndex;
             if (SavedPositionManager.savedPositions.ContainsKey(sceneIndex))
             {
-                transform.position = SavedPositionManager.savedPositions[sceneIndex];
+                wasOpen = true;
             }
         }      
-        else
-       	{
-        hitBox.SetActive(false);
-        //Destroy(hitBox);
-       	}
     }
 
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
 
-        hitRenderer.SetState((int) currentHealth);        
+        float ratio = currentHealth / maxHealth;
 
-        if (currentHealth <= 0)
+    	if (ratio*100 >= 80)
+    	animator.Play("A");
+    	else if (ratio*100 >= 60)
+    	animator.Play("B");
+    	else if (ratio*100 >= 40)
+    	animator.Play("C");
+    	else if (ratio*100 >= 20)
+    	animator.Play("D");   	
+    	else if (currentHealth <= 0)
         {
-            wasOpen = true;
-            hitBox.SetActive(false);
+            Die();
         }
+    }
+
+    void Die()
+    {
+        wasOpen = true;
+        this.gameObject.SetActive(false);
+        animator.Play("DeathEffect");
     }
 
     void OnDestroy() // Unloading scene, so save position.
     {
-        if (wasOpen == false)
+        if (wasOpen == true)
         {
             int sceneIndex = SceneManager.GetActiveScene().buildIndex;
             SavedPositionManager.savedPositions[sceneIndex] = transform.position;
-        }       
+        }      
     }
 }

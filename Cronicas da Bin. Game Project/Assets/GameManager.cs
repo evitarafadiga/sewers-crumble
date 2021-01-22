@@ -68,6 +68,8 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.SetInt("HitPoints", hitPoints);
         PlayerPrefs.SetInt("Shield", shieldPoints);
 
+        Debug.Log("Game saved.");
+
     }
 
     public void LoadPlayer()
