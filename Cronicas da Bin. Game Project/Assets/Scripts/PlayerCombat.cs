@@ -21,7 +21,7 @@ public class PlayerCombat : MonoBehaviour
     int soundIndex;
     public static readonly string[] oincs = { "Oinc1", "Oinc2", "Oinc3", "Oinc4", "Oinc5", "Oinc6", "Oinc7", "Oinc8", "Oinc9", "Oinc10", "Oinc11", "Oinc12", "Oinc13", "Oinc14" };
     public static readonly string[] dracopea = { "Pea1", "Pea2", "Pea3", "Pea4" };
-
+    
     protected virtual void Awake()
     {
         isoRenderer = GetComponentInChildren<IsometricCharacterRenderer>();

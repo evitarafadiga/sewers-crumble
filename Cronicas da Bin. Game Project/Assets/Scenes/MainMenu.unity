@@ -2050,6 +2050,60 @@ MonoBehaviour:
     loop: 0
     mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
     source: {fileID: 0}
+  - name: Hitbox1
+    clip: {fileID: 8300000, guid: 0e31b10106ed45d43b46bcfa56115f2f, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.6
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Hitbox2
+    clip: {fileID: 8300000, guid: 62ed1d90dfd8a3a48a562c6ac8ae4db9, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.6
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Hitbox3
+    clip: {fileID: 8300000, guid: 79de8e980b9a53e41a55dfdc3171e738, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.6
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Hitbox4
+    clip: {fileID: 8300000, guid: 6763865a3952fe646b798dfccdf751e2, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.6
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Hitbox5
+    clip: {fileID: 8300000, guid: b4b7ca4fcf2bdc44090163f302cd5ec2, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.6
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Hitbox6
+    clip: {fileID: 8300000, guid: da9417ffaf9f2a443b8d10b0a9bed4c4, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.6
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
 --- !u!82 &802521330
 AudioSource:
   m_ObjectHideFlags: 0

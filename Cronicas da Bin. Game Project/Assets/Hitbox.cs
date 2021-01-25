@@ -10,6 +10,9 @@ public class Hitbox : MonoBehaviour
 	public float currentHealth;
 	private float maxHealth = 150;
 	private bool wasOpen = false;
+    int soundIndex;
+
+    public static readonly string[] hitboxSounds = { "Hitbox1", "Hitbox2", "Hitbox3", "Hitbox4", "Hitbox5", "Hitbox6" };
 
     void Start()
     {
@@ -25,6 +28,7 @@ public class Hitbox : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        HitboxSounding();
         currentHealth -= damage;
 
         float ratio = currentHealth / maxHealth;
@@ -57,5 +61,12 @@ public class Hitbox : MonoBehaviour
             int sceneIndex = SceneManager.GetActiveScene().buildIndex;
             SavedPositionManager.savedPositions[sceneIndex] = transform.position;
         }      
+    }
+
+    void HitboxSounding () {
+        for (int i = 0 ; i < 1 ; i++) {
+            soundIndex = Random.Range(0,hitboxSounds.Length);
+            FindObjectOfType<AudioManager>().Play(hitboxSounds[soundIndex]);
+        }   
     }
 }
