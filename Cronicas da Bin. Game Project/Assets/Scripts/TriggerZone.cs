@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class TriggerZone : MonoBehaviour
 {
+	public bool isTrap;
     public bool isDamaging;
     public bool isBeatingShield;
     public bool isBuffingHp;
@@ -14,6 +15,9 @@ public class TriggerZone : MonoBehaviour
     public bool addCoin;
 
     public float damage = 10;
+
+    public Animator trapAnimator;
+    public GameObject gob;
 
     private void OnTriggerStay2D(Collider2D col)
     {
@@ -57,13 +61,12 @@ public class TriggerZone : MonoBehaviour
                     col.SendMessage((isBuffingShield) ? "HealShieldDamage" : "DoNothing", damage);
                     i--;
                     }
-                    if (i <= 0)
-                    {
-                    gameObject.SetActive(false);
-                    }
-                }
-
-                
+                }                
+            }
+            if (isTrap == true)
+            {
+               	trapAnimator.SetTrigger("Bite");
+               	gob.SetActive(false);
             }
         }
     }

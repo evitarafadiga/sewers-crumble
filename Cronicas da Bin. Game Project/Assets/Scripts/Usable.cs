@@ -7,7 +7,7 @@ using System.Diagnostics;
 public class Usable : MonoBehaviour
 {
     public GameObject enterLevelText;
-    public string levelToLoad;
+    public int index;
 
     public Animator flagAnimator;
 
@@ -18,6 +18,9 @@ public class Usable : MonoBehaviour
     public Dialogue dialogue;
     public GameObject enterDialogueText;
     public GameObject dialogueBox;
+
+    public Animator transition;
+    public float transitionTime = 1f;
 
     public void TriggerDialogue()
     {
@@ -60,7 +63,7 @@ public class Usable : MonoBehaviour
     {
         if (loadLevelTrigger == true)
         {
-            SceneManager.LoadScene(levelToLoad);
+            StartCoroutine(LoadLevel(index));
         }
         else if (loadLockedLevelTrigger == true)
         {
@@ -69,7 +72,7 @@ public class Usable : MonoBehaviour
                 return;
             }
             
-            SceneManager.LoadScene(GameManager.Instance.currentSaveState);
+            StartCoroutine(LoadLevel(GameManager.Instance.currentSaveState));
         }
         else if (enterDialogueText == true)
         {
@@ -82,5 +85,14 @@ public class Usable : MonoBehaviour
             flagAnimator.Play("Trumbling");   
         }
 
+    }
+
+    IEnumerator LoadLevel(int index)
+    {
+        transition.SetTrigger ("StartAnim");
+
+        yield return new WaitForSeconds(transitionTime);
+
+        SceneManager.LoadScene(index);
     }
 }

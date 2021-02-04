@@ -121,4 +121,19 @@ public class PlayerCombat : MonoBehaviour
     {
         Destroy (gameObject);
     }
+
+    void SteamI()
+    {
+        FindObjectOfType<AudioManager>().Play("Steam1");
+    }
+
+    void SteamII()
+    {
+        FindObjectOfType<AudioManager>().Play("Steam2");
+    }
+
+    void Trap()
+    {
+        FindObjectOfType<AudioManager>().Play("Trap");
+    }
 }

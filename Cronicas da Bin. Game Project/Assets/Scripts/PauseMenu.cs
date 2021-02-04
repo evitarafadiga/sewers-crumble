@@ -50,8 +50,7 @@ public class PauseMenu : MonoBehaviour
 
     public void SaveGame()
     {
-        GameManager.Instance.Save();
-        
+        GameManager.Instance.Save();  
     }
 
     public void LoadPlayer()
@@ -73,4 +72,5 @@ public class PauseMenu : MonoBehaviour
     {
         SceneManager.LoadScene(index);
     }
+
 }

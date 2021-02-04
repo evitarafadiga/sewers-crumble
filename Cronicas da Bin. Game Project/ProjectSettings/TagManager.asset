@@ -55,3 +55,6 @@ TagManager:
   - name: Collider Debug
     uniqueID: 2575363829
     locked: 0
+  - name: Loader
+    uniqueID: 1166148431
+    locked: 0
