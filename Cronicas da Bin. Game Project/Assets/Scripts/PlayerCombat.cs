@@ -136,4 +136,9 @@ public class PlayerCombat : MonoBehaviour
     {
         FindObjectOfType<AudioManager>().Play("Trap");
     }
+
+    void Keyring()
+    {
+        FindObjectOfType<AudioManager>().Play("Key");
+    }
 }

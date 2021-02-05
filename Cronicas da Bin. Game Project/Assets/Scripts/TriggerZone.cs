@@ -17,6 +17,7 @@ public class TriggerZone : MonoBehaviour
     public float damage = 10;
 
     public Animator trapAnimator;
+    public Animator foundKey;
     public GameObject gob;
 
     private void OnTriggerStay2D(Collider2D col)
@@ -42,6 +43,8 @@ public class TriggerZone : MonoBehaviour
                 if (addKeyLevel == true)
                 {
                     col.SendMessage((addKeyLevel) ? "AddKey" : "DoNothing");
+                    if(foundKey.gameObject.activeSelf)
+                    	foundKey.SetTrigger("KeyFound");
                     gameObject.SetActive(false);
                 }
                 else if (addCoin == true)
