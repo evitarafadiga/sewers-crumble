@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2131229525109160114
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2131229525109160115}
+  - component: {fileID: 2131229525109160113}
+  - component: {fileID: 2131229525109160112}
+  m_Layer: 9
+  m_Name: loadBalloon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2131229525109160115
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131229525109160114}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.01, y: -2.76, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &2131229525109160113
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131229525109160114}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.1
+--- !u!114 &2131229525109160112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131229525109160114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d9875f0033c47e4483a8f2120c2c48a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enterLevelText: {fileID: 0}
+  index: 0
+  flagAnimator: {fileID: 0}
+  dialogueTrigger: 1
+  loadLevelTrigger: 0
+  loadLockedLevelTrigger: 0
+  popupBalloon: 0
+  saveGame: 0
+  dialogue:
+    name: 
+    sentences:
+    - ???!!!
+    - O que houve aqui?
+    - "Meus p\xE9s est\xE3o grudando no ch\xE3o..."
+    - e esse zumbido me deixa tonte!
+    - "Por que o ch\xE3o se move?"
+    - Mas que cheiro forte de fer-
+    - ...
+    - Ei!!!
+    - "\xC9 sangue!"
+  enterDialogueText: {fileID: 0}
+  dialogueBox: {fileID: 0}
+  transition: {fileID: 0}
+  transitionTime: 2.7

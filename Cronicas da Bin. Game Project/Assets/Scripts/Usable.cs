@@ -14,6 +14,7 @@ public class Usable : MonoBehaviour
     public bool dialogueTrigger = false;
     public bool loadLevelTrigger = false;
     public bool loadLockedLevelTrigger = false;
+    public bool popupBalloon = false;
     public bool saveGame = false;
     public Dialogue dialogue;
     public GameObject enterDialogueText;

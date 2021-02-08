@@ -3251,7 +3251,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &745209806230898586
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6846,6 +6846,8 @@ MonoBehaviour:
   pauseMenuUI: {fileID: 745209805005729199}
   warning: {fileID: 2863073438248071042}
   levelToLoad: 
+  anim1: {fileID: 2863073438248071042}
+  anim2: {fileID: 315661006250071715}
 --- !u!1 &8076557833747885726
 GameObject:
   m_ObjectHideFlags: 0
