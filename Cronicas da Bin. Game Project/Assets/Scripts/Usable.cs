@@ -14,11 +14,13 @@ public class Usable : MonoBehaviour
     public bool dialogueTrigger = false;
     public bool loadLevelTrigger = false;
     public bool loadLockedLevelTrigger = false;
-    public bool popupBalloon = false;
     public bool saveGame = false;
+    public bool isPopup = false;
+
     public Dialogue dialogue;
     public GameObject enterDialogueText;
     public GameObject dialogueBox;
+    public GameObject popupBalloon;
 
     public Animator transition;
     public float transitionTime = 1f;
@@ -40,8 +42,11 @@ public class Usable : MonoBehaviour
             }
             else if (dialogueTrigger == true)
             {
+                if (isPopup == false)
                 enterDialogueText.SetActive(true);
 
+                popupBalloon.SetActive(true);
+                StartCoroutine(ClosePopupBalloon());
             }
         }
     }
@@ -95,5 +100,11 @@ public class Usable : MonoBehaviour
         yield return new WaitForSeconds(transitionTime);
 
         SceneManager.LoadScene(index);
+    }
+
+    IEnumerator ClosePopupBalloon()
+    {
+        yield return new WaitForSeconds(40f);
+        popupBalloon.SetActive(false);
     }
 }

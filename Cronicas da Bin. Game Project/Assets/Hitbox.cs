@@ -2,9 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
-public class Hitbox : MonoBehaviour
+public sealed class Hitbox : MonoBehaviour
 {
+    [SerializeField]
+    private UnityEvent onDied;
+ 
+ 
     public Animator animator;
 
 	public float currentHealth;
@@ -43,15 +48,29 @@ public class Hitbox : MonoBehaviour
     	animator.Play("D");   	
     	else if (currentHealth <= 0)
         {
-            Die();
+            StartCoroutine(Die());
         }
     }
 
-    void Die()
+    public UnityEvent DiedEvent {
+    get { return this.onDied; }
+    }
+
+    private void OnDiedEvent()
+     {
+        var handler = this.onDied;
+        if (handler != null) {
+            handler.Invoke();
+        }
+    }
+
+    IEnumerator Die()
     {
-        wasOpen = true;
-        this.gameObject.SetActive(false);
         animator.Play("DeathEffect");
+        this.OnDiedEvent();
+        yield return new WaitForSeconds(0.5f);
+        wasOpen = true;
+        this.gameObject.SetActive(false);     
     }
 
     void OnDestroy() // Unloading scene, so save position.

@@ -243,7 +243,7 @@ RectTransform:
   m_Children:
   - {fileID: 4604158081776357990}
   m_Father: {fileID: 8076557833433491360}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -6760,8 +6760,8 @@ RectTransform:
   - {fileID: 745209806230898586}
   - {fileID: 745209805112618009}
   - {fileID: 7723996987305620401}
-  - {fileID: 8280227593351044215}
   - {fileID: 4396561473407232682}
+  - {fileID: 8280227593351044215}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6846,8 +6846,6 @@ MonoBehaviour:
   pauseMenuUI: {fileID: 745209805005729199}
   warning: {fileID: 2863073438248071042}
   levelToLoad: 
-  anim1: {fileID: 2863073438248071042}
-  anim2: {fileID: 315661006250071715}
 --- !u!1 &8076557833747885726
 GameObject:
   m_ObjectHideFlags: 0
@@ -7228,7 +7226,7 @@ PrefabInstance:
     - target: {fileID: 779028731997828126, guid: 4a32ffccf75e8e448974262529273414,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 779028731997828126, guid: 4a32ffccf75e8e448974262529273414,
         type: 3}

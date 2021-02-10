@@ -6,6 +6,7 @@ using UnityEngine;
 public class TriggerZone : MonoBehaviour
 {
 	public bool isTrap;
+	public bool isHitbox;
     public bool isDamaging;
     public bool isBeatingShield;
     public bool isBuffingHp;
@@ -31,7 +32,27 @@ public class TriggerZone : MonoBehaviour
             col.SendMessage((isBuffingHp) ? "HealDamage" : "DoNothing", Time.deltaTime * damage);
             col.SendMessage((isBuffingShield) ? "HealShieldDamage" : "DoNothing", Time.deltaTime * damage);            
             } 
-        }       
+        }
+        if (isHitbox == true)
+       	{
+       		if (col.tag == "Player")
+       		{
+       			if(gameObject.activeSelf == false)
+       			{
+       				int i = (int) damage;
+
+                    while (i > 0)
+                    {
+                    col.SendMessage((isDamaging) ? "TakeDamage" : "DoNothing", damage);
+                    col.SendMessage((isBeatingShield) ? "TakeShieldDamage" : "DoNothing", damage);
+                    col.SendMessage((isBuffingHp) ? "HealDamage" : "DoNothing", damage);
+                    col.SendMessage((isBuffingShield) ? "HealShieldDamage" : "DoNothing", damage);
+                    i--;
+                    }
+       			}
+       			
+       		}
+       	}
     }
 
     private void OnTriggerEnter2D(Collider2D col)
