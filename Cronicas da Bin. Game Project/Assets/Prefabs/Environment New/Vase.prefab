@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 3981323652573536885}
   - component: {fileID: 1235518265327646986}
   - component: {fileID: 4272292176677226675}
+  - component: {fileID: 7631405698734737114}
+  - component: {fileID: 1188246855184272662}
+  - component: {fileID: 8051353839832307707}
   m_Layer: 10
   m_Name: HitboxCollider
   m_TagString: Hitbox
@@ -75,6 +78,75 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1078396, y: 1.000657}
   m_EdgeRadius: 0
+--- !u!114 &7631405698734737114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3981323652573536884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51b42293755876549be8880f35398b48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isTrap: 0
+  isHitbox: 0
+  isDamaging: 0
+  isBeatingShield: 0
+  isBuffingHp: 0
+  isBuffingShield: 0
+  isSubtle: 0
+  addKeyLevel: 0
+  addCoin: 0
+  damage: 10
+  trapAnimator: {fileID: 0}
+  foundKey: {fileID: 0}
+  gob: {fileID: 0}
+--- !u!114 &1188246855184272662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3981323652573536884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e214ac98a5cbc6459bb98825d3eb1a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onDied:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8051353839832307707}
+        m_TargetAssemblyTypeName: Rewarder, Assembly-CSharp
+        m_MethodName: RewardItems
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  animator: {fileID: 3981323653901095128}
+  currentHealth: 150
+--- !u!114 &8051353839832307707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3981323652573536884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b54b03c23eac14146936a37e0246b6a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimumCount: 2
+  maximumCount: 5
+  prefab: {fileID: 1433390808260293204, guid: 4809be93b1a1a304f82b8511ebc99810, type: 3}
 --- !u!1 &3981323652594297947
 GameObject:
   m_ObjectHideFlags: 0
@@ -189,15 +261,13 @@ GameObject:
   - component: {fileID: 3981323653438066437}
   - component: {fileID: 3981323653438066436}
   - component: {fileID: 3981323653438066435}
-  - component: {fileID: 7559215516274222670}
-  - component: {fileID: 1020153333029386631}
   m_Layer: 10
   m_Name: Vase
   m_TagString: Hitbox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3981323653438066437
 Transform:
   m_ObjectHideFlags: 0
@@ -246,50 +316,6 @@ SortingGroup:
   m_SortingLayerID: -904947733
   m_SortingLayer: 1
   m_SortingOrder: 0
---- !u!114 &7559215516274222670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3981323653438066434}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e214ac98a5cbc6459bb98825d3eb1a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onDied:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1020153333029386631}
-        m_TargetAssemblyTypeName: Rewarder, Assembly-CSharp
-        m_MethodName: Spawn
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  animator: {fileID: 3981323653901095128}
-  currentHealth: 150
---- !u!114 &1020153333029386631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3981323653438066434}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b54b03c23eac14146936a37e0246b6a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  minimumCount: 2
-  maximumCount: 5
-  prefab: {fileID: 1433390808260293204, guid: 4809be93b1a1a304f82b8511ebc99810, type: 3}
 --- !u!1 &3981323653901095125
 GameObject:
   m_ObjectHideFlags: 0

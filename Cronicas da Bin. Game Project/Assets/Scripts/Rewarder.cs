@@ -27,7 +27,7 @@ public sealed class Rewarder : MonoBehaviour
         set { this.prefab= value; }
     }
 
-    void Spawn()
+    public void RewardItems()
     {
     	int count = Random.Range(this.MinimumCount, this.MaximumCount );
 

@@ -443,6 +443,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54b03c23eac14146936a37e0246b6a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minimumCount: 0
-  maximumCount: 1
+  minimumCount: 2
+  maximumCount: 5
   prefab: {fileID: 3423774979100568639, guid: 4468cecffdd43ff4294558709ae8a036, type: 3}

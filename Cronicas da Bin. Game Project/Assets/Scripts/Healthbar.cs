@@ -32,12 +32,16 @@ public class Healthbar : MonoBehaviour
     public GameObject heartImages;
     public GameObject shieldImages;
 
+    public TextMeshProUGUI saveStateInfo;
+    public TextMeshProUGUI waterInfo;
+
     private void Start ()
     {
         hitpoint = (int) GameManager.Instance.hitPoints;
         shieldpoint = (int) GameManager.Instance.shieldPoints;
         UpdateHealthbar();
         UpdateShieldbar();
+        UpdateCurrencyBar();
     }
 
     private void UpdateHealthbar ()
@@ -146,11 +150,19 @@ public class Healthbar : MonoBehaviour
     {
         int y = SceneManager.GetActiveScene().buildIndex;
         GameManager.Instance.currentSaveState = y+1;
+        UpdateCurrencyBar();
     }
 
     private void AddCoin()
     {
         GameManager.Instance.currency +=1;
+        UpdateCurrencyBar();
+    }
+
+    private void UpdateCurrencyBar()
+    {
+        saveStateInfo.text = GameManager.Instance.currentSaveState.ToString();
+        waterInfo.text = GameManager.Instance.currency.ToString();
     }
 
     void DoNothing()

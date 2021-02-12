@@ -118,9 +118,9 @@ MonoBehaviour:
   onDied:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 8141349098590485494}
         m_TargetAssemblyTypeName: Rewarder, Assembly-CSharp
-        m_MethodName: Spawn
+        m_MethodName: RewardItems
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minimumCount: 2
   maximumCount: 5
-  prefab: {fileID: 1433390808260293204, guid: 4809be93b1a1a304f82b8511ebc99810, type: 3}
+  prefab: {fileID: 5757510923040951060, guid: ace38e10d748ec447a078092e2bd5197, type: 3}
 --- !u!1 &2817755935655138811
 GameObject:
   m_ObjectHideFlags: 0

@@ -36,15 +36,14 @@ public class MainMenu : MonoBehaviour
 
             GameObject billboard = Instantiate(levelButtonImage) as GameObject;
             levelButtonPrefab.transform.Find("billboard").GetComponent<Image>().sprite = thumbnail;
+           	
+           	container.GetComponent<Button>().onClick.AddListener(() => ContinueGame(GameManager.Instance.currentSaveState));
+           	
             //billboard.GetComponent<Image>().sprite = thumbnail;
             //levelButtonImage.transform.SetParent(levelButtonImage.transform, false);
-
-
             // string sceneName = thumbnail.name;
             // container.GetComponent<Button>().onClick.AddListener(() => LoadLevel(sceneName));
-
-            container.GetComponent<Button>().onClick.AddListener(() => LoadLevelByIndex(GameManager.Instance.currentSaveState));
-
+            //container.GetComponent<Button>().onClick.AddListener(() => LoadLevelByIndex(GameManager.Instance.currentSaveState));	
         }
 
         currencyCoinsUserInfoText.text = GameManager.Instance.currency.ToString();
@@ -53,7 +52,6 @@ public class MainMenu : MonoBehaviour
         //currencyShield.text = GameManager.Instance.shieldPoints.ToString();
 
         //currencyPlayerNameInfoText.text = "Nome : " + GameManager.Instance.currentPlayerName.ToString();
-
     }
 
     public void LoadLevel(string levelToLoad)
@@ -101,6 +99,25 @@ public class MainMenu : MonoBehaviour
     public void LoadPlayer()
     {
         SaveSystem.LoadPlayer();
+    }
+
+    public void NewGame()
+    {
+        PlayerPrefs.DeleteAll();
+        SaveGame();
+        LoadLevelByIndex(1);
+    }
+
+    public void ContinueGame(int index)
+    {
+    	if (index == 0)
+    	{
+    		ToggleNewGame();
+    	}
+    	else
+    	{
+    		LoadLevelByIndex(GameManager.Instance.currentSaveState);
+    	}
     }
 
 }
