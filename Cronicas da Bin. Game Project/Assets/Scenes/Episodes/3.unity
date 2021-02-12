@@ -221,7 +221,16 @@ MonoBehaviour:
   isPopup: 1
   dialogue:
     name: 
-    sentences: []
+    sentences:
+    - ???!!!
+    - O que houve aqui?
+    - "Meus p\xE9s est\xE3o grudando no ch\xE3o..."
+    - e esse zumbido me deixa tonte!
+    - "Por que o ch\xE3o se move?"
+    - Mas que cheiro forte de fer-
+    - ...
+    - Ei!!!
+    - "\xC9 sangue!"
   enterDialogueText: {fileID: 0}
   dialogueBox: {fileID: 1381191178}
   popupBalloon: {fileID: 365274128301142378}
@@ -569,6 +578,7 @@ GameObject:
   m_Component:
   - component: {fileID: 520991156}
   - component: {fileID: 520991155}
+  - component: {fileID: 520991157}
   m_Layer: 0
   m_Name: Player Manager
   m_TagString: Untagged
@@ -603,6 +613,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &520991157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520991154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0224fdb3582056f45a01ca5cd39a6572, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - Apocalypse
+    - Fire
 --- !u!1 &522255851
 GameObject:
   m_ObjectHideFlags: 0
@@ -3014,7 +3041,7 @@ MonoBehaviour:
   saveGame: 0
   isPopup: 0
   dialogue:
-    name: 
+    name: Teste
     sentences: []
   enterDialogueText: {fileID: 1217613377}
   dialogueBox: {fileID: 1381191178}

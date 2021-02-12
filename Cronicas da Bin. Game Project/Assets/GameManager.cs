@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.Advertisements;
 
 public class GameManager : MonoBehaviour
 {
@@ -49,7 +49,7 @@ public class GameManager : MonoBehaviour
         else
         {
             hitPoints = 150;
-
+            Restart();
             Save();
         }
 
@@ -69,7 +69,6 @@ public class GameManager : MonoBehaviour
         PlayerPrefs.SetInt("Shield", shieldPoints);
 
         Debug.Log("Game saved.");
-
     }
 
     public void LoadPlayer()
@@ -92,8 +91,6 @@ public class GameManager : MonoBehaviour
         position.y = data.position[1];
         position.z = data.position[2];
         transform.position = position;
-
-
     }
 
     public void EndGame()
@@ -104,6 +101,14 @@ public class GameManager : MonoBehaviour
             gameHasEnded = true;
             Invoke("Restart", restartDelay);
 
+            if (Advertisement.IsReady("rewardedVideo"))
+            {
+                Advertisement.Show("rewardedVideo");
+            }
+            else if (Advertisement.IsReady())
+            {
+                Advertisement.Show();
+            }
         }
     }
 

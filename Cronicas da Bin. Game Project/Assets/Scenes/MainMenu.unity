@@ -2317,6 +2317,60 @@ MonoBehaviour:
     loop: 0
     mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
     source: {fileID: 0}
+  - name: Apocalypse
+    clip: {fileID: 8300000, guid: e21aea9f16dd3fa47951c8ec00c1f648, type: 3}
+    volume: 0.59
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Fire
+    clip: {fileID: 8300000, guid: a93e2cd8a1a9e1741bc340643f1deaee, type: 3}
+    volume: 0.79
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: SewerSoft
+    clip: {fileID: 8300000, guid: b0aefeb852c84b04981b78680a714e07, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Sewer
+    clip: {fileID: 8300000, guid: 8389ef8fc65f2b04bb6b47a2e817fc39, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: SewerWet
+    clip: {fileID: 8300000, guid: 66995ff240ccd9c42908d105c4511ff0, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Torch
+    clip: {fileID: 8300000, guid: 1a895a76357cb2e488984114c9d3b7fc, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
 --- !u!82 &802521330
 AudioSource:
   m_ObjectHideFlags: 0
