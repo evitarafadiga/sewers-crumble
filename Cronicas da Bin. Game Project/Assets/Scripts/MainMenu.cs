@@ -46,12 +46,18 @@ public class MainMenu : MonoBehaviour
             //container.GetComponent<Button>().onClick.AddListener(() => LoadLevelByIndex(GameManager.Instance.currentSaveState));	
         }
 
-        currencyCoinsUserInfoText.text = GameManager.Instance.currency.ToString();
-        currencyEmeraldsUserInfoText.text = GameManager.Instance.emeralds.ToString();
+        currencyCoinsUserInfoText.text = GameManager.Instance.currentSaveState.ToString();
+        currencyEmeraldsUserInfoText.text = GameManager.Instance.currency.ToString();
         //currencyHitPoints.text = GameManager.Instance.hitPoints.ToString();
         //currencyShield.text = GameManager.Instance.shieldPoints.ToString();
 
         //currencyPlayerNameInfoText.text = "Nome : " + GameManager.Instance.currentPlayerName.ToString();
+    }
+
+    void UpdateCurrencies()
+    {
+    	currencyCoinsUserInfoText.text = GameManager.Instance.currentSaveState.ToString();
+        currencyEmeraldsUserInfoText.text = GameManager.Instance.currency.ToString();
     }
 
     public void LoadLevel(string levelToLoad)

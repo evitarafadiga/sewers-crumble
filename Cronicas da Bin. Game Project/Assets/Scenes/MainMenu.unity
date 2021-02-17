@@ -2329,7 +2329,7 @@ MonoBehaviour:
   - name: Fire
     clip: {fileID: 8300000, guid: a93e2cd8a1a9e1741bc340643f1deaee, type: 3}
     volume: 0.79
-    volumeVariance: 0.33
+    volumeVariance: 0.15
     pitch: 1
     pitchVariance: 0
     loop: 0
@@ -4838,7 +4838,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -24.654297, y: 18.078857}
+  m_AnchoredPosition: {x: -24.654175, y: 18.078857}
   m_SizeDelta: {x: -355.3932, y: -79.2826}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1660877028
@@ -6234,7 +6234,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.4003906, y: -55.69995}
+  m_AnchoredPosition: {x: 1.4003906, y: -55.700012}
   m_SizeDelta: {x: -303.28357, y: 367.08386}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &4026607695247502747
