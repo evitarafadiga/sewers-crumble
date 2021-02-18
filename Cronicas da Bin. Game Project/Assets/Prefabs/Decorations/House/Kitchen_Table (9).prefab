@@ -52,7 +52,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -152,9 +152,9 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.6352726, y: 0.29291454}
-      - {x: -0.6337509, y: 0.73635936}
-      - {x: -0.12261495, y: 0.9675838}
-      - {x: 0.34142524, y: 0.73632157}
-      - {x: 0.34147778, y: 0.30020407}
-      - {x: -0.16671473, y: 0.03749761}
+    - - {x: -0.56832135, y: 0.3598658}
+      - {x: -0.5660889, y: 0.59939677}
+      - {x: -0.14279923, y: 0.800154}
+      - {x: 0.2856322, y: 0.56905663}
+      - {x: 0.27452698, y: 0.3783138}
+      - {x: -0.14811713, y: 0.13048539}

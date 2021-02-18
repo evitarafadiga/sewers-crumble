@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Episodes/3.unity
     guid: 11e5e2b5255222e47aeacbd4c4fcf5ab
+  - enabled: 1
+    path: Assets/Scenes/Episodes/4.unity
+    guid: 1a1bfca26bcb4de44b3bf47b86f75b0e
+  - enabled: 1
+    path: Assets/Scenes/Episodes/5.unity
+    guid: 97fe48fd0068c9244907e3c455130d6f
   m_configObjects: {}

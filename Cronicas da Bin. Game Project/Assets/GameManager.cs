@@ -19,6 +19,8 @@ public class GameManager : MonoBehaviour
     public int hitPoints = 0;
     public int shieldPoints = 0;
 
+    private static int hp = 150;
+
     bool gameHasEnded = false;
     public float restartDelay = 2f;
 
@@ -44,12 +46,11 @@ public class GameManager : MonoBehaviour
             currentPlayerName = PlayerPrefs.GetString("PlayerName");
             hitPoints = PlayerPrefs.GetInt("HitPoints");
             shieldPoints = PlayerPrefs.GetInt("Shield");
-
         }
         else
         {
-            hitPoints = 150;
             Restart();
+            Restaure(hp);
             Save();
         }
 
@@ -112,9 +113,22 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void Restart()
+    public void Restart()
     {
         PlayerPrefs.DeleteAll();
+        Restaure(hp);
     }
 
+    protected void Restaure(int hp, int i = 0, int j = 1)
+    {
+        //if (hitPoints == 0)
+        hitPoints = hp;
+        currentSkinIndex = i;
+        currency = i;
+        skinAvailability = j;
+        emeralds = i;
+        currentSaveState = i;
+        currentPlayerName = "";
+        shieldPoints = i;
+    }
 }

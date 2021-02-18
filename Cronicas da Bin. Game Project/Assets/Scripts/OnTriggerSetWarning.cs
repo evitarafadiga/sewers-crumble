@@ -7,6 +7,7 @@ public class OnTriggerSetWarning : MonoBehaviour
 {
     public GameObject warning;
     public string levelToLoad;
+    public int index;
 
     void Start()
     {
@@ -22,7 +23,12 @@ public class OnTriggerSetWarning : MonoBehaviour
             if (Input.GetButtonDown("Use"))
             {
             	if (levelToLoad == null)
-            	SceneManager.LoadScene(GameManager.Instance.currentSaveState);
+                {
+                    if (index != 0)
+            	    SceneManager.LoadScene(index);
+
+                    SceneManager.LoadScene(GameManager.Instance.currentSaveState);
+                }
 
                 SceneManager.LoadScene(levelToLoad);
             }

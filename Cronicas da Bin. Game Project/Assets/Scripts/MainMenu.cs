@@ -37,7 +37,7 @@ public class MainMenu : MonoBehaviour
             GameObject billboard = Instantiate(levelButtonImage) as GameObject;
             levelButtonPrefab.transform.Find("billboard").GetComponent<Image>().sprite = thumbnail;
            	
-           	container.GetComponent<Button>().onClick.AddListener(() => ContinueGame(GameManager.Instance.currentSaveState));
+           	container.GetComponent<Button>().onClick.AddListener(() => CheckGame(GameManager.Instance.hitPoints));
            	
             //billboard.GetComponent<Image>().sprite = thumbnail;
             //levelButtonImage.transform.SetParent(levelButtonImage.transform, false);
@@ -109,21 +109,34 @@ public class MainMenu : MonoBehaviour
 
     public void NewGame()
     {
-        PlayerPrefs.DeleteAll();
+        Restart();
         SaveGame();
         LoadLevelByIndex(1);
     }
 
-    public void ContinueGame(int index)
+    public void ContinueGame()
     {
-    	if (index == 0)
+    	if (GameManager.Instance.currentSaveState <= 2)
+    	LoadLevelByIndex(GameManager.Instance.currentSaveState);
+
+    	LoadLevelByIndex(GameManager.Instance.currentSaveState - 1);
+    }
+
+    public void CheckGame(int hitP)
+    {
+    	if (hitP > 0) 
     	{
     		ToggleNewGame();
     	}
-    	else
+    	else 
     	{
-    		LoadLevelByIndex(GameManager.Instance.currentSaveState);
+    		Restart();
+    		NewGame();
     	}
     }
 
+    void Restart()
+    {
+        GameManager.Instance.Restart();
+    }
 }
