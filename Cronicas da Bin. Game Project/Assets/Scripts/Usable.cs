@@ -10,17 +10,20 @@ public class Usable : MonoBehaviour
     public int index;
 
     public Animator flagAnimator;
+    public Animator doorAnimator;
 
     public bool dialogueTrigger = false;
     public bool loadLevelTrigger = false;
     public bool loadLockedLevelTrigger = false;
     public bool saveGame = false;
     public bool isPopup = false;
+    public bool isDoor = false;
 
     public Dialogue dialogue;
     public GameObject enterDialogueText;
     public GameObject dialogueBox;
     public GameObject popupBalloon;
+    public GameObject doorCollider;
 
     public Animator transition;
     public float transitionTime = 1f;
@@ -38,15 +41,15 @@ public class Usable : MonoBehaviour
             if (loadLevelTrigger == true)
             {
                 enterLevelText.SetActive(true);
-
             }
-            else if (dialogueTrigger == true)
+            else if (isPopup == true)
             {
-                if (isPopup == false)
-                enterDialogueText.SetActive(true);
-
                 popupBalloon.SetActive(true);
                 StartCoroutine(ClosePopupBalloon());
+            }
+            else if (dialogueTrigger == true)
+            { 
+                enterDialogueText.SetActive(true);
             }
         }
     }
@@ -89,6 +92,11 @@ public class Usable : MonoBehaviour
         {
             GameManager.Instance.Save();
             flagAnimator.Play("Trumbling");   
+        }
+        else if (isDoor == true)
+        {
+            doorAnimator.SetTrigger ("Used");
+            doorCollider.SetActive(!doorCollider.activeSelf);
         }
 
     }
