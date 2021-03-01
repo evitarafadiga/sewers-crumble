@@ -1,10 +1,10 @@
 # Chronicles of the Binarity Android Game
 > RPG survival game gender-neutral inclusive.   
 
-![Cotb Sneak Peek 1](https://i.imgur.com/R6kHQQE.gif)
+![Cotb Sneak Peek 1](sneakpeek_1.gif)
 The Chronicles of the Binarity (Crônicas Binárias in portuguese) is an isometric pixel-art game built from the [2D Isometric Tilemaps](https://github.com/UnityTechnologies/2D_IsoTilemaps) offered by Unity, without using any of its graphics, sprites, scripts, etc. An original project.
 
-![CotBSneak Peek 2](https://i.imgur.com/TOdrBKP.gif)
+![CotBSneak Peek 2](sneakpeek_2.gif)
 
 What makes the project important is the fact that the storytelling is gender-neutral and expected to fit to any kind of both players and cultures. Enjoy!
 
@@ -14,7 +14,7 @@ Click on the image above to watch the video on YouTube.
 
 ## Beta
 
-![CotB Beta Version](https://i.imgur.com/1gjwfln.gif)
+![CotB Beta Version](cotb_beta.gif)
 
 ## Meta
 
