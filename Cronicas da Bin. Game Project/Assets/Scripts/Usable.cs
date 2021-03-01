@@ -112,7 +112,7 @@ public class Usable : MonoBehaviour
 
     IEnumerator ClosePopupBalloon()
     {
-        yield return new WaitForSeconds(40f);
+        yield return new WaitForSeconds(20f);
         popupBalloon.SetActive(false);
     }
 }

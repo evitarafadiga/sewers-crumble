@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6098617436111162179}
   - component: {fileID: 3640507184608153060}
   - component: {fileID: 4876623938684232066}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 2629562421641132910}
   - component: {fileID: 8964799851876166155}
   - component: {fileID: 8048965797400441641}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Image (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,7 +164,7 @@ GameObject:
   - component: {fileID: 1218428134769577165}
   - component: {fileID: 3213322701311908084}
   - component: {fileID: 228418455785700393}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Crossfade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 6798913819272888604}
   - component: {fileID: 8877250943353791617}
   - component: {fileID: 4697284534411724341}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
