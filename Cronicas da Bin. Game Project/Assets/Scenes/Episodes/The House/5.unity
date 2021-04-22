@@ -289,7 +289,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &165344585
 Transform:
   m_ObjectHideFlags: 0
@@ -319,17 +319,20 @@ MonoBehaviour:
   enterLevelText: {fileID: 365274128301142378}
   index: 0
   flagAnimator: {fileID: 0}
+  doorAnimator: {fileID: 0}
   dialogueTrigger: 1
   loadLevelTrigger: 0
   loadLockedLevelTrigger: 0
   saveGame: 0
   isPopup: 1
+  isDoor: 0
   dialogue:
     name: 
     sentences: []
   enterDialogueText: {fileID: 0}
   dialogueBox: {fileID: 1381191178}
   popupBalloon: {fileID: 365274128301142378}
+  doorCollider: {fileID: 0}
   transition: {fileID: 0}
   transitionTime: 2.7
 --- !u!58 &165344587
@@ -1142,7 +1145,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 10
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0, y: 0.5, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 3
@@ -1157,7 +1160,17 @@ Tilemap:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 553123006}
   m_Enabled: 1
-  m_Tiles: {}
+  m_Tiles:
+  - first: {x: -10, y: 4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 16
+      m_TileSpriteIndex: 16
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 0
@@ -1192,8 +1205,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 9a372ef438a3c694991f8010907ec209, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -1227,30 +1240,31 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 1308679017610120818, guid: 28516ff3eabead547898bb58ffed643e,
+      type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 0
+  - m_RefCount: 1
     m_Data:
-      e00: -1.084227e-19
-      e01: -3.0585423e+19
-      e02: -2.3473625
-      e03: 5.1665688
-      e10: 6.2e-43
-      e11: 4.5905e-41
-      e12: 6.21e-43
-      e13: 6.2e-43
-      e20: 3.526e-42
-      e21: -6.964278e-28
-      e22: -6.9638545e-28
-      e23: -6.9638545e-28
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
       e30: 0
-      e31: 1.88e-43
-      e32: 1.88e-43
-      e33: 1.88e-43
+      e31: 0
+      e32: 0
+      e33: 1
   m_TileColorArray:
-  - m_RefCount: 0
-    m_Data: {r: -2.3473625, g: -2.3473625, b: -2.3473625, a: -2.3473625}
+  - m_RefCount: 1
+    m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3435,17 +3449,20 @@ MonoBehaviour:
   enterLevelText: {fileID: 1217613377}
   index: 0
   flagAnimator: {fileID: 0}
+  doorAnimator: {fileID: 0}
   dialogueTrigger: 1
   loadLevelTrigger: 0
   loadLockedLevelTrigger: 0
   saveGame: 0
   isPopup: 0
+  isDoor: 0
   dialogue:
     name: 
     sentences: []
   enterDialogueText: {fileID: 1217613377}
   dialogueBox: {fileID: 1381191178}
   popupBalloon: {fileID: 0}
+  doorCollider: {fileID: 0}
   transition: {fileID: 0}
   transitionTime: 2.7
 --- !u!58 &688733634
@@ -6553,8 +6570,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   warning: {fileID: 3309066288922715667}
-  levelToLoad: 
-  index: 6
+  levelToLoad: Sewer 1
+  index: 0
 --- !u!58 &1559779852
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7045,11 +7062,13 @@ MonoBehaviour:
   enterLevelText: {fileID: 0}
   index: 0
   flagAnimator: {fileID: 0}
+  doorAnimator: {fileID: 0}
   dialogueTrigger: 1
   loadLevelTrigger: 0
   loadLockedLevelTrigger: 0
   saveGame: 0
   isPopup: 0
+  isDoor: 0
   dialogue:
     name: 
     sentences:
@@ -7065,6 +7084,7 @@ MonoBehaviour:
   enterDialogueText: {fileID: 1217613377}
   dialogueBox: {fileID: 1381191178}
   popupBalloon: {fileID: 0}
+  doorCollider: {fileID: 0}
   transition: {fileID: 0}
   transitionTime: 2.7
 --- !u!58 &1721340458
@@ -7130,17 +7150,20 @@ MonoBehaviour:
   enterLevelText: {fileID: 8809664089978124999}
   index: 2
   flagAnimator: {fileID: 0}
+  doorAnimator: {fileID: 0}
   dialogueTrigger: 0
   loadLevelTrigger: 0
   loadLockedLevelTrigger: 1
   saveGame: 0
   isPopup: 0
+  isDoor: 0
   dialogue:
     name: 
     sentences: []
   enterDialogueText: {fileID: 1217613377}
   dialogueBox: {fileID: 1381191178}
   popupBalloon: {fileID: 0}
+  doorCollider: {fileID: 0}
   transition: {fileID: 745209804860197266}
   transitionTime: 2.7
 --- !u!58 &1767073107
@@ -10581,16 +10604,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -10, y: 4, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 16
-      m_TileSpriteIndex: 16
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 0
@@ -10625,8 +10638,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 9a372ef438a3c694991f8010907ec209, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: fff8e3772475b65469369594bc35cc04, type: 2}
   m_TileSpriteArray:
@@ -10662,14 +10675,13 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 1308679017610120818, guid: 28516ff3eabead547898bb58ffed643e,
-      type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -7794273071397281860, guid: 28516ff3eabead547898bb58ffed643e,
       type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 2
+  - m_RefCount: 1
     m_Data:
       e00: 1
       e01: 0
@@ -10688,7 +10700,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 2
+  - m_RefCount: 1
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -10746,6 +10758,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 35337422531737623, guid: 2db855ecd2c1a624f911eecb734d4976,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 562451512795172119, guid: 2db855ecd2c1a624f911eecb734d4976,
         type: 3}
       propertyPath: m_Name
@@ -12004,17 +12021,20 @@ MonoBehaviour:
   enterLevelText: {fileID: 365274128301142378}
   index: 0
   flagAnimator: {fileID: 0}
+  doorAnimator: {fileID: 0}
   dialogueTrigger: 1
   loadLevelTrigger: 0
   loadLockedLevelTrigger: 0
   saveGame: 0
   isPopup: 0
+  isDoor: 0
   dialogue:
     name: 
     sentences: []
   enterDialogueText: {fileID: 365274128301142378}
   dialogueBox: {fileID: 1381191178}
   popupBalloon: {fileID: 365274128301142378}
+  doorCollider: {fileID: 0}
   transition: {fileID: 0}
   transitionTime: 2.7
 --- !u!1 &3309066288922715667 stripped
@@ -13202,7 +13222,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 3.5
+  orthographic size: 3
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

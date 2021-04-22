@@ -22,7 +22,7 @@ public class OnTriggerSetWarning : MonoBehaviour
             warning.SetActive(true);
             if (Input.GetButtonDown("Use"))
             {
-            	if (levelToLoad == null)
+            	if (levelToLoad == "")
                 {
                     if (index != 0)
             	    SceneManager.LoadScene(index);
