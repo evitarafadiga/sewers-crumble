@@ -144,6 +144,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -195,7 +196,7 @@ SortingGroup:
   m_Enabled: 1
   m_SortingLayerID: -904947733
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
 --- !u!1 &2750001955033138771
 GameObject:
   m_ObjectHideFlags: 0
@@ -239,6 +240,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -290,4 +292,4 @@ SortingGroup:
   m_Enabled: 1
   m_SortingLayerID: -904947733
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
