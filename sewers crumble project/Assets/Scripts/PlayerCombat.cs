@@ -93,6 +93,11 @@ public class PlayerCombat : MonoBehaviour
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 
+    void DestroyGameObject ()
+    {
+        Destroy (gameObject);
+    }
+
     void Footsteps()
     {
         FindObjectOfType<AudioManager>().Play("FootstepsCommon");
@@ -117,11 +122,6 @@ public class PlayerCombat : MonoBehaviour
         }   
     }
 
-    void DestroyGameObject ()
-    {
-        Destroy (gameObject);
-    }
-
     void SteamI()
     {
         FindObjectOfType<AudioManager>().Play("Steam1");
@@ -141,4 +141,5 @@ public class PlayerCombat : MonoBehaviour
     {
         FindObjectOfType<AudioManager>().Play("Key");
     }
+    
 }

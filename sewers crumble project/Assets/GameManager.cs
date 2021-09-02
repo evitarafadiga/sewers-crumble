@@ -37,7 +37,6 @@ public class GameManager : MonoBehaviour
 
         if (PlayerPrefs.HasKey("HitPoints"))
         {
-            // sessão prévia
             currentSkinIndex = PlayerPrefs.GetInt("CurrentSkin");
             currency = PlayerPrefs.GetInt("Currency");
             emeralds = PlayerPrefs.GetInt("Emeralds");

@@ -24,7 +24,7 @@ public class DialogueTrigger : MonoBehaviour
         if (plyr.gameObject.tag == "Player")
         {
             enterDialogueText.SetActive(true);
-            if (Input.GetButtonDown("Use"))
+            if (Input.GetAxisRaw("Use") != 0)
             {
                 dialogueBox.SetActive(true);
                 FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
