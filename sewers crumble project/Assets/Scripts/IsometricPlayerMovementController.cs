@@ -23,7 +23,6 @@ public class IsometricPlayerMovementController : MonoBehaviour
     void FixedUpdate()
     {
         Vector2 currentPos = rbody.position;
-        
         if (Input.GetAxisRaw("Fire1") != 0) combat.CallAttack();
         if (Input.GetAxisRaw("Use") != 0) combat.CallUse();
 
@@ -34,6 +33,7 @@ public class IsometricPlayerMovementController : MonoBehaviour
         //Original
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
+        
         Vector2 inputVector = new Vector2(horizontalInput, verticalInput);
         inputVector = Vector2.ClampMagnitude(inputVector, 1);
         Vector2 movement = inputVector * movementSpeed;
