@@ -12,4 +12,16 @@ public class Jukebox : MonoBehaviour
 		FindObjectOfType<ThemeSound>().StartTheme(dialogue);
 	}
 
+	void OnDestroy() {
+		Stop();
+	}
+
+	void Stop()
+    {
+        foreach (string sounds in dialogue.sentences)
+        {
+            FindObjectOfType<AudioManager>().Stop(sounds);
+        }
+    }
+
 }

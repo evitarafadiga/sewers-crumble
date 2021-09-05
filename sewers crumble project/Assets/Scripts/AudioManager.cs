@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-
     public static AudioManager instance;
 
     public AudioMixerGroup mixerGroup;
@@ -31,11 +30,6 @@ public class AudioManager : MonoBehaviour
 
             s.source.outputAudioMixerGroup = mixerGroup;
         }
-    }
-
-    void Start()
-    {
-        Play("Theme");
     }
 
     public void Play(string sound)
