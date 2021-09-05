@@ -666,6 +666,7 @@ MonoBehaviour:
   dialogueTrigger: 1
   loadLevelTrigger: 0
   loadLockedLevelTrigger: 0
+  loadLockedWithWarning: 0
   saveGame: 0
   isPopup: 1
   isDoor: 0
@@ -676,6 +677,7 @@ MonoBehaviour:
   dialogueBox: {fileID: 1381191178}
   popupBalloon: {fileID: 365274128301142378}
   doorCollider: {fileID: 0}
+  Key: {fileID: 0}
   transition: {fileID: 0}
   transitionTime: 2.7
 --- !u!58 &165344587
@@ -3825,6 +3827,7 @@ MonoBehaviour:
   dialogueTrigger: 1
   loadLevelTrigger: 0
   loadLockedLevelTrigger: 0
+  loadLockedWithWarning: 0
   saveGame: 0
   isPopup: 0
   isDoor: 0
@@ -3835,6 +3838,7 @@ MonoBehaviour:
   dialogueBox: {fileID: 1381191178}
   popupBalloon: {fileID: 0}
   doorCollider: {fileID: 0}
+  Key: {fileID: 0}
   transition: {fileID: 0}
   transitionTime: 2.7
 --- !u!58 &688733634
@@ -7931,6 +7935,7 @@ MonoBehaviour:
   dialogueTrigger: 1
   loadLevelTrigger: 0
   loadLockedLevelTrigger: 0
+  loadLockedWithWarning: 0
   saveGame: 0
   isPopup: 0
   isDoor: 0
@@ -7950,6 +7955,7 @@ MonoBehaviour:
   dialogueBox: {fileID: 1381191178}
   popupBalloon: {fileID: 0}
   doorCollider: {fileID: 0}
+  Key: {fileID: 0}
   transition: {fileID: 0}
   transitionTime: 2.7
 --- !u!58 &1721340458
@@ -8013,12 +8019,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enterLevelText: {fileID: 8809664089978124999}
-  index: 10
+  index: 11
   flagAnimator: {fileID: 0}
   doorAnimator: {fileID: 0}
   dialogueTrigger: 0
   loadLevelTrigger: 0
   loadLockedLevelTrigger: 1
+  loadLockedWithWarning: 0
   saveGame: 0
   isPopup: 0
   isDoor: 0
@@ -8029,6 +8036,7 @@ MonoBehaviour:
   dialogueBox: {fileID: 1381191178}
   popupBalloon: {fileID: 0}
   doorCollider: {fileID: 0}
+  Key: {fileID: 0}
   transition: {fileID: 745209804860197266}
   transitionTime: 2.7
 --- !u!58 &1767073107
@@ -11988,6 +11996,566 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 745209804860197265}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &757078177906458949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 757078177906458970}
+  - component: {fileID: 757078177906458974}
+  - component: {fileID: 757078177906458971}
+  - component: {fileID: 757078177906458968}
+  - component: {fileID: 757078177906458969}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &757078177906458968
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757078177906458949}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &757078177906458969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757078177906458949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28a86f5230ce0c447975172433852482, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &757078177906458970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757078177906458949}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &757078177906458971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757078177906458949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754e7ad3f10493f449170adcb1a3e5c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+  sounds:
+  - name: Theme
+    clip: {fileID: 8300000, guid: 9b54ac5013ddba04ab3f964ce1ae49bd, type: 3}
+    volume: 1
+    volumeVariance: 0.1
+    pitch: 1
+    pitchVariance: 0.1
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: FootstepsCommon
+    clip: {fileID: 8300000, guid: 1e9535b7781e04045b490564266b6fea, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Yay
+    clip: {fileID: 8300000, guid: f025496f3d93dab46bd45d9a0d700d24, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Oinc1
+    clip: {fileID: 8300000, guid: 4db5131215f61bc4fab999326289b6d1, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Oinc2
+    clip: {fileID: 8300000, guid: 42b71cc1ad6172e4ea9a754a845f6c7f, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Oinc3
+    clip: {fileID: 8300000, guid: e51723dda541322418d64852b312fab0, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Oinc4
+    clip: {fileID: 8300000, guid: d45fb4e42e1c5d64889396d74c70106a, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Oinc5
+    clip: {fileID: 8300000, guid: efeec87f36d666c4494147365cd370b2, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Oinc6
+    clip: {fileID: 8300000, guid: c197f45fb51e8024eaab3c8a7875bdc5, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Oinc7
+    clip: {fileID: 8300000, guid: 0a6fc1d2937312149a62bd5cad78d1bc, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Oinc8
+    clip: {fileID: 8300000, guid: 9d184b9bf0d57c9429f66cf9f220a7f1, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Oinc9
+    clip: {fileID: 8300000, guid: 903bd199a0b819d4086d83bb1f784c20, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Oinc10
+    clip: {fileID: 8300000, guid: 2f8b9314fc122774a94c032ebc42799a, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Oinc11
+    clip: {fileID: 8300000, guid: 28fce7326d66b2d48baeeb0994fb32d5, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Oinc12
+    clip: {fileID: 8300000, guid: 2da712c868e8e4f4bb22074df3a4f562, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Oinc13
+    clip: {fileID: 8300000, guid: 0db945b3a50c9f546ae740cc0c40b7ea, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Oinc14
+    clip: {fileID: 8300000, guid: ecafa81fee87c7541b4088daefcbe2e6, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Pea1
+    clip: {fileID: 8300000, guid: d2771067cc8aa9241b50538d55a8f28d, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Pea2
+    clip: {fileID: 8300000, guid: a3d033550afb93e4ca551e04767a1df8, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Pea3
+    clip: {fileID: 8300000, guid: 43778d2ff265efb4bad93e426a89561c, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Pea4
+    clip: {fileID: 8300000, guid: 9f0caf9ebb9b978478b7037f37c4d631, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Pea5
+    clip: {fileID: 8300000, guid: 9636a01fd6da3d04484ee98e1f08344c, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Pea6
+    clip: {fileID: 8300000, guid: 3e8139e2bd75ae441a8b3c330dae976c, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Pea7
+    clip: {fileID: 8300000, guid: b0afa84cf380f284bb645e2f45d0fdd0, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Pea8
+    clip: {fileID: 8300000, guid: a70ba0a8e423f404f9ce4979c5e8c1dc, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Pea9
+    clip: {fileID: 8300000, guid: 07c3ee8ac3d209740883febd14ce2979, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Pea10
+    clip: {fileID: 8300000, guid: a373f8d5c8b837249899789fc0322a8f, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.29
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Hitbox1
+    clip: {fileID: 8300000, guid: 0e31b10106ed45d43b46bcfa56115f2f, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.6
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Hitbox2
+    clip: {fileID: 8300000, guid: 62ed1d90dfd8a3a48a562c6ac8ae4db9, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.6
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Hitbox3
+    clip: {fileID: 8300000, guid: 79de8e980b9a53e41a55dfdc3171e738, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.6
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Hitbox4
+    clip: {fileID: 8300000, guid: 6763865a3952fe646b798dfccdf751e2, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.6
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Hitbox5
+    clip: {fileID: 8300000, guid: b4b7ca4fcf2bdc44090163f302cd5ec2, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.6
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Hitbox6
+    clip: {fileID: 8300000, guid: da9417ffaf9f2a443b8d10b0a9bed4c4, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.6
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Steam1
+    clip: {fileID: 8300000, guid: e048abadf5b227c40bd049d5712f3166, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.66
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Steam2
+    clip: {fileID: 8300000, guid: df8f4ad221690874a80b184a5e19211c, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.66
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Trap
+    clip: {fileID: 8300000, guid: 32e7927a186a38847b7061159ecb90d4, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0.66
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Key
+    clip: {fileID: 8300000, guid: a416709542b344141bcb37b32f0d0a38, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Apocalypse
+    clip: {fileID: 8300000, guid: e21aea9f16dd3fa47951c8ec00c1f648, type: 3}
+    volume: 0.59
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Fire
+    clip: {fileID: 8300000, guid: a93e2cd8a1a9e1741bc340643f1deaee, type: 3}
+    volume: 0.79
+    volumeVariance: 0.15
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: SewerSoft
+    clip: {fileID: 8300000, guid: b0aefeb852c84b04981b78680a714e07, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Sewer
+    clip: {fileID: 8300000, guid: 8389ef8fc65f2b04bb6b47a2e817fc39, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: SewerWet
+    clip: {fileID: 8300000, guid: 66995ff240ccd9c42908d105c4511ff0, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+  - name: Torch
+    clip: {fileID: 8300000, guid: 1a895a76357cb2e488984114c9d3b7fc, type: 3}
+    volume: 1
+    volumeVariance: 0.33
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8980d9e4568f95649ae903ff9e3e102e, type: 2}
+    source: {fileID: 0}
+--- !u!114 &757078177906458974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757078177906458949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ba44bd087001c84aaa566aea44ab513, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    name: 
+    sentences:
+    - Theme
 --- !u!114 &893325194437993124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12307,65 +12875,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.05872941}
   serializedVersion: 2
   m_Radius: 0.25529432
---- !u!114 &1730011457686924784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730011457686924796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ba44bd087001c84aaa566aea44ab513, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    name: 
-    sentences: []
---- !u!4 &1730011457686924786
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730011457686924796}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1730011457686924787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1730011457686924796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28a86f5230ce0c447975172433852482, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1730011457686924796
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1730011457686924786}
-  - component: {fileID: 1730011457686924787}
-  - component: {fileID: 1730011457686924784}
-  m_Layer: 0
-  m_Name: SoundMachine
-  m_TagString: Untagged
-  m_Icon: {fileID: -1412012063857583412, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!4 &1842257518898559252
 Transform:
   m_ObjectHideFlags: 0
@@ -12898,6 +13407,7 @@ MonoBehaviour:
   dialogueTrigger: 1
   loadLevelTrigger: 0
   loadLockedLevelTrigger: 0
+  loadLockedWithWarning: 0
   saveGame: 0
   isPopup: 0
   isDoor: 0
@@ -12908,6 +13418,7 @@ MonoBehaviour:
   dialogueBox: {fileID: 1381191178}
   popupBalloon: {fileID: 365274128301142378}
   doorCollider: {fileID: 0}
+  Key: {fileID: 0}
   transition: {fileID: 0}
   transitionTime: 2.7
 --- !u!1 &3309066288922715667 stripped

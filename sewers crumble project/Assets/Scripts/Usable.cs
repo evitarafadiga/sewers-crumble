@@ -15,6 +15,7 @@ public class Usable : MonoBehaviour
     public bool dialogueTrigger = false;
     public bool loadLevelTrigger = false;
     public bool loadLockedLevelTrigger = false;
+    public bool loadLockedWithWarning = false;
     public bool saveGame = false;
     public bool isPopup = false;
     public bool isDoor = false;
@@ -24,6 +25,8 @@ public class Usable : MonoBehaviour
     public GameObject dialogueBox;
     public GameObject popupBalloon;
     public GameObject doorCollider;
+
+    public GameObject Key;
 
     public Animator transition;
     public float transitionTime = 1f;
@@ -76,12 +79,12 @@ public class Usable : MonoBehaviour
         }
         else if (loadLockedLevelTrigger == true)
         {
-            if (GameManager.Instance.currentSaveState < SceneManager.GetActiveScene().buildIndex)
+            if (Key.activeInHierarchy)
             {
                 return;
             }
             
-            StartCoroutine(LoadLevel(GameManager.Instance.currentSaveState));
+            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex+1));
         }
         else if (enterDialogueText == true)
         {

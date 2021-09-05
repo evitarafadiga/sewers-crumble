@@ -77,6 +77,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -188,13 +189,13 @@ MonoBehaviour:
   isTrap: 0
   isHitbox: 0
   isDamaging: 0
-  isBeatingShield: 1
+  isBeatingShield: 0
   isBuffingHp: 1
   isBuffingShield: 0
   isSubtle: 1
   addKeyLevel: 0
   addCoin: 0
-  damage: 4
+  damage: 3.5
   trapAnimator: {fileID: 0}
   foundKey: {fileID: 0}
   gob: {fileID: 0}

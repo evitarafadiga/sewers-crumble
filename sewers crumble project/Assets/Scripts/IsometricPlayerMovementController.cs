@@ -23,8 +23,8 @@ public class IsometricPlayerMovementController : MonoBehaviour
     void FixedUpdate()
     {
         Vector2 currentPos = rbody.position;
-        if (Input.GetAxisRaw("Fire1") != 0) combat.CallAttack();
-        if (Input.GetAxisRaw("Use") != 0) combat.CallUse();
+        //if (Input.GetAxisRaw("Fire1") != 0) combat.CallAttack();
+        //if (Input.GetAxisRaw("Use") != 0) combat.CallUse();
 
         //Opção de Joystick
         //float horizontalInput = joystick.Horizontal;

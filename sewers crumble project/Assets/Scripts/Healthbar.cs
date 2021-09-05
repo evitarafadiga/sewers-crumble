@@ -148,14 +148,13 @@ public class Healthbar : MonoBehaviour
 
     private void AddKey()
     {
-        int y = SceneManager.GetActiveScene().buildIndex;
-        GameManager.Instance.currentSaveState = y+1;
+        GameManager.Instance.currentSaveState++;
         UpdateCurrencyBar();
     }
 
     private void AddCoin()
     {
-        GameManager.Instance.currency +=1;
+        GameManager.Instance.currency++;
         UpdateCurrencyBar();
     }
 
