@@ -114,6 +114,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -122,9 +123,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -145,6 +146,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -866,6 +869,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Rose Attacking Isometric_19: 1840299855691747000
+      Rose Attacking Isometric_27: -1065417159580792988
+      Rose Attacking Isometric_13: -1809619662298497748
+      Rose Attacking Isometric_26: 1136141857706234369
+      Rose Attacking Isometric_17: -9128547448817703288
+      Rose Attacking Isometric_4: -8123561341800290707
+      Rose Attacking Isometric_2: 8194361581830919154
+      Rose Attacking Isometric_5: -9187200239176201634
+      Rose Attacking Isometric_25: -5437373900857864577
+      Rose Attacking Isometric_10: -7835220924046952441
+      Rose Attacking Isometric_21: 4161875601014063536
+      Rose Attacking Isometric_28: 7620055157714073616
+      Rose Attacking Isometric_7: -756825330646619107
+      Rose Attacking Isometric_11: 8469666403450801495
+      Rose Attacking Isometric_22: -8817597770787956126
+      Rose Attacking Isometric_14: 5884752607925029497
+      Rose Attacking Isometric_18: 3444645486276876703
+      Rose Attacking Isometric_3: -2553841957391768795
+      Rose Attacking Isometric_9: -2979336116723762278
+      Rose Attacking Isometric_23: 7861505206012309997
+      Rose Attacking Isometric_24: 7542211530951543846
+      Rose Attacking Isometric_8: 2342815136948366410
+      Rose Attacking Isometric_20: 3198650565210844969
+      Rose Attacking Isometric_29: -9017113984186546636
+      Rose Attacking Isometric_0: 1861656683734735493
+      Rose Attacking Isometric_1: 1870772866045300118
+      Rose Attacking Isometric_6: 4089561110072156829
+      Rose Attacking Isometric_12: 4682678697916460630
+      Rose Attacking Isometric_16: -4902996025083536616
+      Rose Attacking Isometric_15: 2955080195012734862
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

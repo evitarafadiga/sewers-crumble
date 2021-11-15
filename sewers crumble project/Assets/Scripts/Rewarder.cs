@@ -29,7 +29,8 @@ public sealed class Rewarder : MonoBehaviour
 
     public void RewardItems()
     {
-    	int count = Random.Range(this.MinimumCount, this.MaximumCount );
+    	//int count = Random.Range(this.MinimumCount, this.MaximumCount );
+        int count = 1;
 
         for (int i = 0; i < count; ++i) {
             Instantiate(this.prefab, this.gameObject.transform.position, Quaternion.identity);

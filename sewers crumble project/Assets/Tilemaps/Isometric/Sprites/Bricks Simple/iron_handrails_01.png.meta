@@ -96,6 +96,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -104,9 +105,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -127,6 +128,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -710,6 +713,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      iron_handrails_01_2: -8913335842622645437
+      iron_handrails_01_8: 3092741292352803823
+      iron_handrails_01_13: 3088464487041713065
+      iron_handrails_01_18: -272377578250709032
+      iron_handrails_01_3: -5594895916741812107
+      iron_handrails_01_4: 85435892511772667
+      iron_handrails_01_16: 1695831414372685412
+      iron_handrails_01_11: -4287456469037239195
+      iron_handrails_01_14: 5066379884248878481
+      iron_handrails_01_17: 4207442517629436904
+      iron_handrails_01_12: 299458107927067324
+      iron_handrails_01_20: -2160386155366167686
+      iron_handrails_01_7: 5703675998967736353
+      iron_handrails_01_21: -7540202830162727004
+      iron_handrails_01_23: -6356709781228064818
+      iron_handrails_01_1: 1231732973330900287
+      iron_handrails_01_10: 1317527718868119920
+      iron_handrails_01_0: -6905595998429777445
+      iron_handrails_01_15: -5104783909487591537
+      iron_handrails_01_5: 6267773216241080563
+      iron_handrails_01_9: 5251476124046019133
+      iron_handrails_01_22: -35462676149262112
+      iron_handrails_01_6: -5619964374300893019
+      iron_handrails_01_19: -5158442092085482764
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

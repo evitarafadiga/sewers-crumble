@@ -84,7 +84,8 @@ public class Usable : MonoBehaviour
                 return;
             }
             
-            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex+1));
+            //StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex+1));
+            StartCoroutine(LoadLevel(index));
         }
         else if (enterDialogueText == true)
         {

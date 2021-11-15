@@ -114,6 +114,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -122,9 +123,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -145,6 +146,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -854,6 +857,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Rose_Isometric_Ver2_13: 5254292760736208298
+      Rose_Isometric_Ver2_16: -2195977763867775257
+      Rose_Isometric_Ver2_20: -1962424624676713796
+      Rose_Isometric_Ver2_28: 2560370755655499298
+      Rose_Isometric_Ver2_21: 7649688072704162957
+      Rose_Isometric_Ver2_8: 8377248557848234625
+      Rose_Isometric_Ver2_11: -4315249854612926444
+      Rose_Isometric_Ver2_24: 7951139210189800841
+      Rose_Isometric_Ver2_27: 4566341976070907368
+      Rose_Isometric_Ver2_22: -832072849902983917
+      Rose_Isometric_Ver2_0: 4328871963621941053
+      Rose_Isometric_Ver2_3: 4200939750042022524
+      Rose_Isometric_Ver2_4: -8193089954813416299
+      Rose_Isometric_Ver2_19: -9023099936900058703
+      Rose_Isometric_Ver2_25: 1663774308787343116
+      Rose_Isometric_Ver2_9: -3831869438851863044
+      Rose_Isometric_Ver2_15: 4450624999152527494
+      Rose_Isometric_Ver2_26: 3261248786106902549
+      Rose_Isometric_Ver2_7: 7311374928798307783
+      Rose_Isometric_Ver2_23: 4438852196657609612
+      Rose_Isometric_Ver2_12: -681285610901823526
+      Rose_Isometric_Ver2_29: 3023431361493376225
+      Rose_Isometric_Ver2_18: -5276729941145826939
+      Rose_Isometric_Ver2_6: 4896471924117486394
+      Rose_Isometric_Ver2_10: 7718197397045270440
+      Rose_Isometric_Ver2_2: 15346800810138846
+      Rose_Isometric_Ver2_14: -6574787047981069143
+      Rose_Isometric_Ver2_5: -1760312548699271649
+      Rose_Isometric_Ver2_17: -2201263778458517152
+      Rose_Isometric_Ver2_1: 2764284337242553819
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

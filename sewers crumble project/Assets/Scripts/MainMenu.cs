@@ -36,8 +36,9 @@ public class MainMenu : MonoBehaviour
 
             GameObject billboard = Instantiate(levelButtonImage) as GameObject;
             levelButtonPrefab.transform.Find("billboard").GetComponent<Image>().sprite = thumbnail;
-           	
-           	container.GetComponent<Button>().onClick.AddListener(() => CheckGame(GameManager.Instance.currentSaveState));
+            
+           	string sceneName = thumbnail.name;
+           	container.GetComponent<Button>().onClick.AddListener(() => LoadLevel(sceneName));
            	
             //billboard.GetComponent<Image>().sprite = thumbnail;
             //levelButtonImage.transform.SetParent(levelButtonImage.transform, false);

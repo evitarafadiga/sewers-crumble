@@ -144,6 +144,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -152,9 +153,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -175,6 +176,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -1094,6 +1097,47 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      swinedonist_3_20: -7089482315544227133
+      swinedonist_3_22: -5223971961253070449
+      swinedonist_3_30: 3709646998337135677
+      swinedonist_3_38: -4867657190022795206
+      swinedonist_3_4: 4783805398455587453
+      swinedonist_3_8: 7184426807096564131
+      swinedonist_3_10: 8776217575844682036
+      swinedonist_3_1: -8463023771201987230
+      swinedonist_3_19: 3344561379607305371
+      swinedonist_3_5: -7557900850418498367
+      swinedonist_3_23: 4093749219342261888
+      swinedonist_3_32: -2274414743859587796
+      swinedonist_3_33: -1055978120507759694
+      swinedonist_3_37: 5507929456275123519
+      swinedonist_3_27: 194900893844004151
+      swinedonist_3_0: -820851098474260201
+      swinedonist_3_2: -6739779452508182656
+      swinedonist_3_14: -3996607365293753336
+      swinedonist_3_24: 607888863985114671
+      swinedonist_3_39: -6512789641318385607
+      swinedonist_3_11: -847611907224063832
+      swinedonist_3_17: 1871120163245219984
+      swinedonist_3_3: 5276565174372561664
+      swinedonist_3_16: -2587901875947159376
+      swinedonist_3_18: -6804027927490575522
+      swinedonist_3_7: 7622344392181726146
+      swinedonist_3_28: -3926951673142294453
+      swinedonist_3_21: -5545150073794612929
+      swinedonist_3_36: -6691083504321365129
+      swinedonist_3_26: -1240070420747524925
+      swinedonist_3_9: -3357233659082458340
+      swinedonist_3_25: 4918331797935165
+      swinedonist_3_34: -2490155741224597801
+      swinedonist_3_35: -1766940184019987190
+      swinedonist_3_12: -917931650837571061
+      swinedonist_3_6: 4506427463044144699
+      swinedonist_3_31: 841902288961670167
+      swinedonist_3_13: 3066663578650170440
+      swinedonist_3_29: -6851402426862951818
+      swinedonist_3_15: -6852839811497190974
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

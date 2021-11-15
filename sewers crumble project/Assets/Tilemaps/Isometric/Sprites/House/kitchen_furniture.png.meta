@@ -117,6 +117,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -125,12 +126,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -868,6 +869,38 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      kitchen_furniture_27: 6878116971675751835
+      kitchen_furniture_8: -797026896548032591
+      kitchen_furniture_16: 6033937501742926684
+      kitchen_furniture_15: -4828621724107521103
+      kitchen_furniture_6: 4649047202388099198
+      kitchen_furniture_28: -2558012983439663109
+      kitchen_furniture_25: 2014609879925549931
+      kitchen_furniture_2: -484454884934719058
+      kitchen_furniture_19: -2225593676470123514
+      kitchen_furniture_13: 7268576866376705115
+      kitchen_furniture_21: -7155867494778800538
+      kitchen_furniture_22: 7286462380161430717
+      kitchen_furniture_18: 6162747986121948970
+      kitchen_furniture_12: 8352258274878892174
+      kitchen_furniture_17: -9219750004486143354
+      kitchen_furniture_24: 3590193126708837279
+      kitchen_furniture_1: -2962803403018606722
+      kitchen_furniture_3: -7013671323548790136
+      kitchen_furniture_9: 8267373487997467468
+      kitchen_furniture_30: 4209918232411631507
+      kitchen_furniture_5: -7819670972364379135
+      kitchen_furniture_7: 4708224175549707095
+      kitchen_furniture_11: -8409768509229571545
+      kitchen_furniture_20: -6244383343817486486
+      kitchen_furniture_29: 1002863140237531148
+      kitchen_furniture_0: -8166914988289086655
+      kitchen_furniture_10: 8377008596650991171
+      kitchen_furniture_23: 7825502597021687761
+      kitchen_furniture_26: 1118845631458016258
+      kitchen_furniture_4: -4718544752746691013
+      kitchen_furniture_14: -1068068943813996717
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

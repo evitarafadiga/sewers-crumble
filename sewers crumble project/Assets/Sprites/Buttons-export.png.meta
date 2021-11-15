@@ -96,6 +96,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -104,12 +105,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -127,6 +128,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -686,6 +689,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Buttons-export_20: 382944029179732179
+      Buttons-export_8: -909466890294079886
+      Buttons-export_4: -2524600268847255885
+      Buttons-export_12: -2610217104362222656
+      Buttons-export_2: 5083765400351420908
+      Buttons-export_21: 3940322843253071918
+      Buttons-export_11: 299499522139427048
+      Buttons-export_6: 5470973672058913791
+      Buttons-export_10: 862153081790455411
+      Buttons-export_13: -6529701137437338920
+      Buttons-export_18: 7717719172337842920
+      Buttons-export_7: -2942670662920552068
+      Buttons-export_16: -8226291050241065944
+      Buttons-export_9: 2833340856130679615
+      Buttons-export_17: 3276929129289448648
+      Buttons-export_19: 4833739108265519191
+      Buttons-export_22: -2200035008764525916
+      Buttons-export_1: -8125716746879624862
+      Buttons-export_0: -6624655001958525240
+      Buttons-export_23: 1768781983796006660
+      Buttons-export_3: -7830377254778855695
+      Buttons-export_5: -225567182025048292
+      Buttons-export_15: -5686258558587629918
+      Buttons-export_14: 4994489242412901507
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

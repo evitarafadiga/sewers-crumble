@@ -192,6 +192,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -200,9 +201,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -223,6 +224,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -1478,6 +1481,63 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Rocks-sheet_39: 3983990382818005794
+      Rocks-sheet_37: -748102642830973401
+      Rocks-sheet_45: -2386812173024026380
+      Rocks-sheet_17: -5090120988065042266
+      Rocks-sheet_27: -2817209868462159697
+      Rocks-sheet_15: -3024308235348987652
+      Rocks-sheet_35: -3650436929355377613
+      Rocks-sheet_34: 6493484063252600782
+      Rocks-sheet_14: 4505457173475695273
+      Rocks-sheet_30: -4034571199264289233
+      Rocks-sheet_6: 23089786242905914
+      Rocks-sheet_10: 6849256114721621808
+      Rocks-sheet_5: -7404877451579281682
+      Rocks-sheet_47: -6104665874675298386
+      Rocks-sheet_0: 8038124702423484268
+      Rocks-sheet_40: -5530005271556327726
+      Rocks-sheet_33: -8789295128873899982
+      Rocks-sheet_55: 4924398651927912590
+      Rocks-sheet_49: 6366148340061943551
+      Rocks-sheet_48: 3897670194574601613
+      Rocks-sheet_2: 4691517867105000312
+      Rocks-sheet_11: -6205654520485431431
+      Rocks-sheet_42: 5058333778538205711
+      Rocks-sheet_44: 119300231394692022
+      Rocks-sheet_13: 4475355956936609447
+      Rocks-sheet_16: 4862986381540663653
+      Rocks-sheet_1: -8738188365120545592
+      Rocks-sheet_31: -722775076905552655
+      Rocks-sheet_41: -459370498956767773
+      Rocks-sheet_3: -2603866661539833836
+      Rocks-sheet_19: -6231631898330400122
+      Rocks-sheet_9: 1072634957599935743
+      Rocks-sheet_53: -6382080887233499497
+      Rocks-sheet_54: -884367077442227709
+      Rocks-sheet_4: 4185144762794636022
+      Rocks-sheet_32: -4285948295324932940
+      Rocks-sheet_28: -7736779589598002427
+      Rocks-sheet_24: -4850622988544820222
+      Rocks-sheet_50: -5923761263273966374
+      Rocks-sheet_52: -3522146416126150549
+      Rocks-sheet_8: 6836392429656887297
+      Rocks-sheet_23: -1259987154319795745
+      Rocks-sheet_22: -4380965289912418482
+      Rocks-sheet_26: 4685324613451831897
+      Rocks-sheet_25: 4443047207710621140
+      Rocks-sheet_38: -5253279820746307056
+      Rocks-sheet_20: 2225223175174001075
+      Rocks-sheet_36: -8775597781642079398
+      Rocks-sheet_46: 5394456760941762893
+      Rocks-sheet_29: 8806158292792320111
+      Rocks-sheet_43: -7821613671948826004
+      Rocks-sheet_7: 4995275508731164305
+      Rocks-sheet_18: -6401233102467487658
+      Rocks-sheet_51: -6604209846617915118
+      Rocks-sheet_21: 8176732669843278860
+      Rocks-sheet_12: -4109032450175210655
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

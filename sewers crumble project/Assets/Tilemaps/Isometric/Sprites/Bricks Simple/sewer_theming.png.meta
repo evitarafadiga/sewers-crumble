@@ -87,6 +87,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -95,12 +96,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -628,6 +629,28 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      sewer_theming_9: 1221717004071287947
+      sewer_theming_12: 6319088500106381016
+      sewer_theming_13: 4231469523635926274
+      sewer_theming_19: 2828772887588489169
+      sewer_theming_4: -6386273960327376567
+      sewer_theming_14: -7014811368964620942
+      sewer_theming_16: 8660009923826154515
+      sewer_theming_17: -4558888187137797993
+      sewer_theming_5: 4159645576508905429
+      sewer_theming_20: 6173249646825677009
+      sewer_theming_18: -3458858409326058341
+      sewer_theming_15: -8601096847555662443
+      sewer_theming_6: 9077781114187287269
+      sewer_theming_2: -2941089608556423760
+      sewer_theming_8: 793683486487227719
+      sewer_theming_1: 7785386015457701034
+      sewer_theming_0: -4695298703297104102
+      sewer_theming_10: -437746940906231845
+      sewer_theming_3: -7206811585304847598
+      sewer_theming_11: -4080752372567669470
+      sewer_theming_7: -631538938055791002
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

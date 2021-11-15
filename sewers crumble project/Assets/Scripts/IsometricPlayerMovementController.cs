@@ -27,12 +27,12 @@ public class IsometricPlayerMovementController : MonoBehaviour
         //if (Input.GetAxisRaw("Use") != 0) combat.CallUse();
 
         //Opção de Joystick
-        //float horizontalInput = joystick.Horizontal;
-        //float verticalInput = joystick.Vertical;
+        float horizontalInput = joystick.Horizontal;
+        float verticalInput = joystick.Vertical;
 
         //Original
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
+        //float horizontalInput = Input.GetAxis("Horizontal");
+        //float verticalInput = Input.GetAxis("Vertical");
         
         Vector2 inputVector = new Vector2(horizontalInput, verticalInput);
         inputVector = Vector2.ClampMagnitude(inputVector, 1);

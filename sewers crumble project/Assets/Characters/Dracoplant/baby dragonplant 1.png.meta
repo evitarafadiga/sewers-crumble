@@ -69,6 +69,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -77,12 +78,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -100,6 +101,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -470,6 +473,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      baby dragonplant 1_1: 7851315936503325471
+      baby dragonplant 1_3: -2820146613542206201
+      baby dragonplant 1_12: -7711741039059083886
+      baby dragonplant 1_0: 4257592879512318860
+      baby dragonplant 1_14: 2808247612246023216
+      baby dragonplant 1_9: 1214222390690641377
+      baby dragonplant 1_5: 849652798144006205
+      baby dragonplant 1_13: -4993722338014627619
+      baby dragonplant 1_7: -5059466291564043546
+      baby dragonplant 1_10: -8608010671648379864
+      baby dragonplant 1_11: -4995707180804037442
+      baby dragonplant 1_6: 8283636813910151160
+      baby dragonplant 1_2: -943733240975758667
+      baby dragonplant 1_4: 408434041239621267
+      baby dragonplant 1_8: -7853018188948472552
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -159,6 +159,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -167,9 +168,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -190,6 +191,8 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
@@ -773,6 +776,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      pipe_sprite_01_4: -4731395017687322263
+      pipe_sprite_01_13: -5575493275005914697
+      pipe_sprite_01_5: -6378939980831388651
+      pipe_sprite_01_6: -8028188346719589400
+      pipe_sprite_01_10: 2297265343734731614
+      pipe_sprite_01_12: -6343512863321690000
+      pipe_sprite_01_7: -7550519500992488604
+      pipe_sprite_01_9: -7003349280174455771
+      pipe_sprite_01_11: -6808872228711004957
+      pipe_sprite_01_22: -918933185001552451
+      pipe_sprite_01_18: -2213041949084769563
+      pipe_sprite_01_17: 7765289486774731083
+      pipe_sprite_01_19: 5191721290447126396
+      pipe_sprite_01_14: 4222120873893395853
+      pipe_sprite_01_23: -7942138057375646771
+      pipe_sprite_01_2: -6175926394539074453
+      pipe_sprite_01_20: 8398351519512420740
+      pipe_sprite_01_0: -9020943835270040365
+      pipe_sprite_01_16: -5398506643414472847
+      pipe_sprite_01_8: -1523410909024057023
+      pipe_sprite_01_3: 2321439497337785882
+      pipe_sprite_01_15: 8763206267532918471
+      pipe_sprite_01_1: 2417795560493209627
+      pipe_sprite_01_21: 4140809662301275197
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
