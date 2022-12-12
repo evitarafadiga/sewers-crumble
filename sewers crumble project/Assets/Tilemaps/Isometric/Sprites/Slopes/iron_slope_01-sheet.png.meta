@@ -57,7 +57,7 @@ TextureImporter:
       213: 940351885391024503
     second: iron_slope_01-sheet_17
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -78,6 +78,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -86,9 +87,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -109,11 +110,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -165,6 +169,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -566,6 +582,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      iron_slope_01-sheet_17: 940351885391024503
+      iron_slope_01-sheet_2: -2118827683641035955
+      iron_slope_01-sheet_0: -7829182609391892136
+      iron_slope_01-sheet_3: 7738713729814072645
+      iron_slope_01-sheet_11: -2626335192655880088
+      iron_slope_01-sheet_15: -3715740273943331069
+      iron_slope_01-sheet_8: -5471023157030119552
+      iron_slope_01-sheet_10: 3777218952156558545
+      iron_slope_01-sheet_1: 7873047180999044090
+      iron_slope_01-sheet_9: 7361730147554742941
+      iron_slope_01-sheet_4: 2802813799183704662
+      iron_slope_01-sheet_5: 2995726046562677435
+      iron_slope_01-sheet_13: 5526697936959849005
+      iron_slope_01-sheet_12: 2887649184035058247
+      iron_slope_01-sheet_7: 5520562407519519333
+      iron_slope_01-sheet_6: -8763059904722142266
+      iron_slope_01-sheet_14: 8650819424088632853
+      iron_slope_01-sheet_16: 8708348224587589328
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

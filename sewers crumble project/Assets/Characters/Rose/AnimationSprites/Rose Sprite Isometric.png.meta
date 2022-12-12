@@ -93,7 +93,7 @@ TextureImporter:
       213: -7534827735539050214
     second: Rose Sprite Isometric_29
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -114,6 +114,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -122,9 +123,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -145,11 +146,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -201,6 +205,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -854,6 +882,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Rose Sprite Isometric_28: -1286731690078741686
+      Rose Sprite Isometric_10: 383097071197899197
+      Rose Sprite Isometric_27: -2034080205025434701
+      Rose Sprite Isometric_17: 5674280718570210997
+      Rose Sprite Isometric_26: 3007614831831103619
+      Rose Sprite Isometric_3: 4869593691220795502
+      Rose Sprite Isometric_24: -3698751074226686923
+      Rose Sprite Isometric_0: -6990441510431685524
+      Rose Sprite Isometric_15: 426485594047243357
+      Rose Sprite Isometric_7: -2542738254423147653
+      Rose Sprite Isometric_16: -7598660727124810609
+      Rose Sprite Isometric_21: 4662382468745212353
+      Rose Sprite Isometric_20: -4897637906112897225
+      Rose Sprite Isometric_14: -2006620688388772564
+      Rose Sprite Isometric_1: -6622126739962271457
+      Rose Sprite Isometric_5: 5345869207559683536
+      Rose Sprite Isometric_8: -4772718063773353959
+      Rose Sprite Isometric_19: -8587162341748041743
+      Rose Sprite Isometric_23: 1431498322281612762
+      Rose Sprite Isometric_22: 6678848207062576657
+      Rose Sprite Isometric_29: -7534827735539050214
+      Rose Sprite Isometric_9: -4538628137637482436
+      Rose Sprite Isometric_4: 8894030436661328933
+      Rose Sprite Isometric_6: -4710238224700048870
+      Rose Sprite Isometric_18: 4346383735805439237
+      Rose Sprite Isometric_11: 7683351527043828142
+      Rose Sprite Isometric_25: -8820631330128209332
+      Rose Sprite Isometric_13: 8545787863719895807
+      Rose Sprite Isometric_2: 4062445151375823022
+      Rose Sprite Isometric_12: -2125971972963063971
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

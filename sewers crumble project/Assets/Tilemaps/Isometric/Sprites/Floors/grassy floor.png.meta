@@ -117,7 +117,7 @@ TextureImporter:
       213: 1319597553797026116
     second: grassy floor_37
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -138,6 +138,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -146,9 +147,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -169,11 +170,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -225,6 +229,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1046,6 +1074,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      grassy floor_16: -1277382588364708940
+      grassy floor_37: 1319597553797026116
+      grassy floor_27: 4844149038706597204
+      grassy floor_28: -9171498913755716148
+      grassy floor_0: -6195937881907670173
+      grassy floor_35: 7166657194206032492
+      grassy floor_25: 2118384843099328543
+      grassy floor_30: 8988745688915054513
+      grassy floor_36: -5103780166576270438
+      grassy floor_5: 7322578391763620515
+      grassy floor_12: -3892341620895820213
+      grassy floor_33: -6943551068046008325
+      grassy floor_23: -3997333831267443690
+      grassy floor_3: 568717401266157207
+      grassy floor_2: -255737836617186703
+      grassy floor_15: 7109931832405212369
+      grassy floor_24: 6028748298656500085
+      grassy floor_6: 1648604783875419225
+      grassy floor_17: -8194677584638101512
+      grassy floor_4: -2572331599280228703
+      grassy floor_7: 4126877239728069708
+      grassy floor_32: 3234077187805258337
+      grassy floor_29: 4181076076055651603
+      grassy floor_10: 3483452988184851596
+      grassy floor_18: -7714864577931381636
+      grassy floor_26: -7805166395418172208
+      grassy floor_1: -5530658401590661289
+      grassy floor_13: -8740911843074679351
+      grassy floor_19: 8997180839180572823
+      grassy floor_9: 6186364950529537868
+      grassy floor_14: -6076866840327312752
+      grassy floor_11: 3226767198033108841
+      grassy floor_21: -730784997740061234
+      grassy floor_8: -7760037327867992538
+      grassy floor_20: -5265599058123308290
+      grassy floor_34: 8803246006834378537
+      grassy floor_22: -36154973462681687
+      grassy floor_31: -8742357293801765521
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

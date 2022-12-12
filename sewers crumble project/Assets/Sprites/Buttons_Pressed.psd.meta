@@ -75,7 +75,7 @@ TextureImporter:
       213: 2530919376940982982
     second: Buttons_Pressed_23
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -96,6 +96,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -104,12 +105,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -127,11 +128,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -183,6 +187,30 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -710,6 +738,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Buttons_Pressed_0: -6149744328071411781
+      Buttons_Pressed_10: -4828393706450532812
+      Buttons_Pressed_2: 1270274283620477543
+      Buttons_Pressed_5: 6624573783351676973
+      Buttons_Pressed_9: -3485140144346258004
+      Buttons_Pressed_12: -256206125088095473
+      Buttons_Pressed_20: -7771585211645199665
+      Buttons_Pressed_8: -1463662549027485168
+      Buttons_Pressed_21: -7578180073998799173
+      Buttons_Pressed_14: 2334513950498815609
+      Buttons_Pressed_6: 3384086005813628017
+      Buttons_Pressed_7: -3734117378966484434
+      Buttons_Pressed_4: 6588161523177893439
+      Buttons_Pressed_18: -7744308494883049998
+      Buttons_Pressed_15: -6895097509052208495
+      Buttons_Pressed_11: -5398291447942427158
+      Buttons_Pressed_23: 2530919376940982982
+      Buttons_Pressed_1: 7697698610796807886
+      Buttons_Pressed_13: -5863329810415778354
+      Buttons_Pressed_16: -7996942856563382300
+      Buttons_Pressed_17: -8708981601596915668
+      Buttons_Pressed_3: 645666578412086748
+      Buttons_Pressed_22: 8401978902907052243
+      Buttons_Pressed_19: 7525500825945156424
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 1

@@ -183,7 +183,7 @@ TextureImporter:
       213: -356885031252159424
     second: Rose_Isometric_Ver2_Full_Gardener_59
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -204,6 +204,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -212,9 +213,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -235,11 +236,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -291,6 +295,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1574,6 +1590,67 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Rose_Isometric_Ver2_Full_Gardener_22: 5714058505692489754
+      Rose_Isometric_Ver2_Full_Gardener_55: -2134068873485744019
+      Rose_Isometric_Ver2_Full_Gardener_40: 4030555525961077449
+      Rose_Isometric_Ver2_Full_Gardener_57: 5177159342998932452
+      Rose_Isometric_Ver2_Full_Gardener_21: -8821856869868931727
+      Rose_Isometric_Ver2_Full_Gardener_12: 2351523820512640757
+      Rose_Isometric_Ver2_Full_Gardener_19: 4892317813920909523
+      Rose_Isometric_Ver2_Full_Gardener_38: 5719588032598370582
+      Rose_Isometric_Ver2_Full_Gardener_33: 6914987471849040440
+      Rose_Isometric_Ver2_Full_Gardener_18: -6119401166495354494
+      Rose_Isometric_Ver2_Full_Gardener_27: 3134943855660277864
+      Rose_Isometric_Ver2_Full_Gardener_51: 8838355012768959243
+      Rose_Isometric_Ver2_Full_Gardener_6: -1248743371574250788
+      Rose_Isometric_Ver2_Full_Gardener_2: -2572696227866780372
+      Rose_Isometric_Ver2_Full_Gardener_53: 5943623168827376548
+      Rose_Isometric_Ver2_Full_Gardener_3: 3410095830784641841
+      Rose_Isometric_Ver2_Full_Gardener_42: 3488938782340325530
+      Rose_Isometric_Ver2_Full_Gardener_36: -9029979723336874666
+      Rose_Isometric_Ver2_Full_Gardener_30: -3268423821307100159
+      Rose_Isometric_Ver2_Full_Gardener_5: 3464226483970330816
+      Rose_Isometric_Ver2_Full_Gardener_0: 5372472157371388218
+      Rose_Isometric_Ver2_Full_Gardener_29: 6746926452864729489
+      Rose_Isometric_Ver2_Full_Gardener_28: 7754721618975464874
+      Rose_Isometric_Ver2_Full_Gardener_31: -4498659582793420553
+      Rose_Isometric_Ver2_Full_Gardener_8: -2733761778267768101
+      Rose_Isometric_Ver2_Full_Gardener_43: 1268902431187614209
+      Rose_Isometric_Ver2_Full_Gardener_16: 5181167991862299439
+      Rose_Isometric_Ver2_Full_Gardener_39: 7038388315627676575
+      Rose_Isometric_Ver2_Full_Gardener_44: -7767350013868200126
+      Rose_Isometric_Ver2_Full_Gardener_56: 2078745092022771431
+      Rose_Isometric_Ver2_Full_Gardener_26: -4181377294335404636
+      Rose_Isometric_Ver2_Full_Gardener_59: -356885031252159424
+      Rose_Isometric_Ver2_Full_Gardener_9: 6882321606798100065
+      Rose_Isometric_Ver2_Full_Gardener_52: -5021757815150243271
+      Rose_Isometric_Ver2_Full_Gardener_15: -8711317687240880361
+      Rose_Isometric_Ver2_Full_Gardener_37: 3905483364422171995
+      Rose_Isometric_Ver2_Full_Gardener_35: 3775250621744324458
+      Rose_Isometric_Ver2_Full_Gardener_10: -1746358453177151669
+      Rose_Isometric_Ver2_Full_Gardener_11: -1881303173226683918
+      Rose_Isometric_Ver2_Full_Gardener_58: -5259404490372859204
+      Rose_Isometric_Ver2_Full_Gardener_34: -7231269645780656788
+      Rose_Isometric_Ver2_Full_Gardener_23: 4109645962725499712
+      Rose_Isometric_Ver2_Full_Gardener_17: 1706835285294956776
+      Rose_Isometric_Ver2_Full_Gardener_4: 7270142804936008162
+      Rose_Isometric_Ver2_Full_Gardener_7: -2569604441760667877
+      Rose_Isometric_Ver2_Full_Gardener_1: 3534060590310903753
+      Rose_Isometric_Ver2_Full_Gardener_25: 3456219038908668883
+      Rose_Isometric_Ver2_Full_Gardener_20: -7017853295185797909
+      Rose_Isometric_Ver2_Full_Gardener_14: -8296787495891531002
+      Rose_Isometric_Ver2_Full_Gardener_45: -4675974898987272881
+      Rose_Isometric_Ver2_Full_Gardener_46: 7346482292766088870
+      Rose_Isometric_Ver2_Full_Gardener_24: -4855805447681014530
+      Rose_Isometric_Ver2_Full_Gardener_50: 5971808826911585519
+      Rose_Isometric_Ver2_Full_Gardener_48: 6161070131570116396
+      Rose_Isometric_Ver2_Full_Gardener_13: -5510131843696685078
+      Rose_Isometric_Ver2_Full_Gardener_32: 2464581614226548276
+      Rose_Isometric_Ver2_Full_Gardener_47: -6994380629579068878
+      Rose_Isometric_Ver2_Full_Gardener_54: -6969872476864304877
+      Rose_Isometric_Ver2_Full_Gardener_41: 5877904815098297232
+      Rose_Isometric_Ver2_Full_Gardener_49: -1929989602638232164
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

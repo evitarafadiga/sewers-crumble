@@ -75,7 +75,7 @@ TextureImporter:
       213: -2720165826697850834
     second: bricksprite_bloody_01_23
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -96,6 +96,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -104,9 +105,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -127,11 +128,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -183,6 +187,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -710,6 +726,31 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      bricksprite_bloody_01_6: 235239487657765235
+      bricksprite_bloody_01_15: -7782012126105122568
+      bricksprite_bloody_01_14: -5095897166229865722
+      bricksprite_bloody_01_16: 6107967079824719185
+      bricksprite_bloody_01_3: 3237888370184999984
+      bricksprite_bloody_01_13: 3257046688917980292
+      bricksprite_bloody_01_18: -728433853124935413
+      bricksprite_bloody_01_23: -2720165826697850834
+      bricksprite_bloody_01_11: 7779814108886565721
+      bricksprite_bloody_01_19: -4992223365348813551
+      bricksprite_bloody_01_22: -6154368177100531209
+      bricksprite_bloody_01_7: -6900790260367976641
+      bricksprite_bloody_01_12: 67825878256117928
+      bricksprite_bloody_01_10: -273417842048190866
+      bricksprite_bloody_01_2: 6272152105459628361
+      bricksprite_bloody_01_1: -5046643975874791161
+      bricksprite_bloody_01_0: 55172334852443089
+      bricksprite_bloody_01_17: -5887742484327646570
+      bricksprite_bloody_01_8: 4014559651513078775
+      bricksprite_bloody_01_21: -6462893813149785252
+      bricksprite_bloody_01_9: 6835667573613914709
+      bricksprite_bloody_01_4: -5001577216473715583
+      bricksprite_bloody_01_20: -5056748043151710740
+      bricksprite_bloody_01_5: 3112491388823473515
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

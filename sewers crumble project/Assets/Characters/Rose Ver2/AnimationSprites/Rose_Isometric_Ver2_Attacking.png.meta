@@ -93,7 +93,7 @@ TextureImporter:
       213: 6124502876044189807
     second: Rose_Isometric_Ver2_Attacking_29
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -114,6 +114,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -122,9 +123,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -145,11 +146,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -201,6 +205,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -854,6 +870,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Rose_Isometric_Ver2_Attacking_21: 2664477482350593907
+      Rose_Isometric_Ver2_Attacking_20: -6894932230860247473
+      Rose_Isometric_Ver2_Attacking_13: 6662297640410929232
+      Rose_Isometric_Ver2_Attacking_4: 4818859357405642896
+      Rose_Isometric_Ver2_Attacking_29: 6124502876044189807
+      Rose_Isometric_Ver2_Attacking_11: 2785718221886990914
+      Rose_Isometric_Ver2_Attacking_25: -4021665007652573431
+      Rose_Isometric_Ver2_Attacking_14: -5132398148764074966
+      Rose_Isometric_Ver2_Attacking_10: -6378355295084072873
+      Rose_Isometric_Ver2_Attacking_9: -2481069649492521966
+      Rose_Isometric_Ver2_Attacking_0: 3447460325103705845
+      Rose_Isometric_Ver2_Attacking_16: -2496396016635793782
+      Rose_Isometric_Ver2_Attacking_26: 8740527246186331620
+      Rose_Isometric_Ver2_Attacking_27: -8912818346219919339
+      Rose_Isometric_Ver2_Attacking_24: 4337084447114040923
+      Rose_Isometric_Ver2_Attacking_18: 3822529252680185256
+      Rose_Isometric_Ver2_Attacking_12: -6677513620947632426
+      Rose_Isometric_Ver2_Attacking_6: -9127212530096893462
+      Rose_Isometric_Ver2_Attacking_5: 3843884761862251128
+      Rose_Isometric_Ver2_Attacking_19: -6188171624136880474
+      Rose_Isometric_Ver2_Attacking_8: -2395872615854758742
+      Rose_Isometric_Ver2_Attacking_15: 1139992469184763509
+      Rose_Isometric_Ver2_Attacking_28: -2411561815900542676
+      Rose_Isometric_Ver2_Attacking_23: -7539185028084272476
+      Rose_Isometric_Ver2_Attacking_7: 2553208324616923884
+      Rose_Isometric_Ver2_Attacking_17: -4266495052063908286
+      Rose_Isometric_Ver2_Attacking_1: -7569663726692401980
+      Rose_Isometric_Ver2_Attacking_3: 2244833092677376939
+      Rose_Isometric_Ver2_Attacking_22: -3124584993688146289
+      Rose_Isometric_Ver2_Attacking_2: -1390592265285181188
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

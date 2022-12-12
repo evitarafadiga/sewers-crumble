@@ -123,7 +123,7 @@ TextureImporter:
       213: -4249173062045180702
     second: swinedonist_2_39
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -144,6 +144,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -152,9 +153,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -175,11 +176,14 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -231,6 +235,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -1094,6 +1110,47 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      swinedonist_2_12: -2434680839591662576
+      swinedonist_2_35: -7756429756948195706
+      swinedonist_2_38: 3675687505442980117
+      swinedonist_2_39: -4249173062045180702
+      swinedonist_2_32: -5179110833057623436
+      swinedonist_2_11: -6408996769710955099
+      swinedonist_2_6: -7352516855652303120
+      swinedonist_2_7: -4742740961897169039
+      swinedonist_2_21: -244559942209823029
+      swinedonist_2_23: -163278420690692571
+      swinedonist_2_8: -2784003750379559041
+      swinedonist_2_14: -2700659587062978009
+      swinedonist_2_25: -4649692340432275990
+      swinedonist_2_30: 7737509782933127021
+      swinedonist_2_4: -6914388361305173282
+      swinedonist_2_33: 3146823088247119656
+      swinedonist_2_19: -6978372396614465074
+      swinedonist_2_20: -6096179890385880637
+      swinedonist_2_26: 145566443971772222
+      swinedonist_2_1: -6746913722861066549
+      swinedonist_2_9: -6885654341920104870
+      swinedonist_2_22: 6182199869435136845
+      swinedonist_2_3: 7601337316484288435
+      swinedonist_2_28: -455987165796213022
+      swinedonist_2_13: 1705747600463742210
+      swinedonist_2_10: -510254386457223317
+      swinedonist_2_34: -4276145865629667896
+      swinedonist_2_31: -5943804736499561329
+      swinedonist_2_37: -1061374794525533725
+      swinedonist_2_18: -9071726206623721982
+      swinedonist_2_16: 3625518373770646395
+      swinedonist_2_17: 4695207534960617551
+      swinedonist_2_24: -4812064733477753383
+      swinedonist_2_29: 2905822982796301529
+      swinedonist_2_5: -7323198243703258355
+      swinedonist_2_27: -7627901923772149056
+      swinedonist_2_0: -8639056470270807912
+      swinedonist_2_2: -7762908670230493495
+      swinedonist_2_15: 3128846237153796843
+      swinedonist_2_36: -2114223336220508213
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
