@@ -1,4 +1,4 @@
-# Caldo de Esgoto (Sewer's Crumble) 
+# Sewer's Crumble
 > Multiplatform survival horror game.
 
 *Read also in other languages: [Brazilian Portuguese](README.pt-BR.md), [English](README.md).*
@@ -12,7 +12,12 @@ What makes the project special is the fact that the storytelling is both gender-
 ![Caldo de Esgoto (Sewer's Crumble) Sneak Peek 2](./images/sneakpeek_2.gif)
 
 ## Platforms 🕹️
-Caldo de Esgoto (Sewer's Crumble) is supposed to be available on Android devices, but soon it will be available to way more platforms, with way more episodes and features. Hope you enjoy!
+Caldo de Esgoto (Sewer's Crumble) is supposed to be available on Android devices, Windows and Linux but soon it will be available to way more platforms, with way more episodes and features. Hope you enjoy!
+
+You can download on [itch.io](https://evitarafadiga.itch.io/caldo-de-esgoto)
+<a href="https://evitarafadiga.itch.io/caldo-de-esgoto">
+<img src="https://static.itch.io/images/badge-color.svg" alt="Itch IO logo" style="height: 100px; width:auto;display: block; margin-left: auto;
+  margin-right: auto"/> </a>
 
 ## Trivia ⛳️
 ![Rose Concept Art](https://i.imgur.com/lRCf3pY.png)
@@ -29,7 +34,8 @@ As you can see, I collected years of references from other games, pop culture an
 Lázaro Santos – lazvsantos@gmail.com – Author & Developer
 Nathan Galvão – [вเφ ¢я๏¢](https://soundcloud.com/big_croc "listen to big croc on soundcloud") – Music Artist
 
-Working on the ``LICENSE`` information.
+Copyright © 2023 [evitarafadiga](https://github.com/evitarafadiga)
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
 
 <!-- Markdown link & img dfn's -->
 [npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
