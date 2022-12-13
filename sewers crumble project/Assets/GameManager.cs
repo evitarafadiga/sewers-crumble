@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEngine.Advertisements;
 
 public class GameManager : MonoBehaviour
 {
@@ -100,15 +99,6 @@ public class GameManager : MonoBehaviour
 
             gameHasEnded = true;
             Invoke("Restart", restartDelay);
-
-            if (Advertisement.IsReady("rewardedVideo"))
-            {
-                Advertisement.Show("rewardedVideo");
-            }
-            else if (Advertisement.IsReady())
-            {
-                Advertisement.Show();
-            }
         }
     }
 
