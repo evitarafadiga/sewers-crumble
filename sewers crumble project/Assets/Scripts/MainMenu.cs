@@ -12,19 +12,16 @@ public class MainMenu : MonoBehaviour
     public GameObject optionsMenu;
     public GameObject startMenu;
     public GameObject currencyMenu;
-
     public GameObject levelButtonPrefab;
     public GameObject levelButtonImage;
     public GameObject levelButtonContainer;
     public GameObject levelSelectionMenu;
     public GameObject newGameMenu;
-
     public string levelToLoad;
     public TextMeshProUGUI currencyCoinsUserInfoText;
     public TextMeshProUGUI currencyEmeraldsUserInfoText;
     public TextMeshProUGUI currencyHitPoints;
     public TextMeshProUGUI currencyShield;
-
     private void Start()
     {
         Sprite[] thumbnails = Resources.LoadAll<Sprite>("Episodes");
@@ -36,7 +33,7 @@ public class MainMenu : MonoBehaviour
 
             GameObject billboard = Instantiate(levelButtonImage) as GameObject;
             levelButtonPrefab.transform.Find("billboard").GetComponent<Image>().sprite = thumbnail;
-           	
+           	levelButtonPrefab.transform.Find("nome").GetComponent<TextMeshProUGUI>().text = thumbnail.name;
            	container.GetComponent<Button>().onClick.AddListener(() => CheckGame(GameManager.Instance.hitPoints));
            	
             //billboard.GetComponent<Image>().sprite = thumbnail;

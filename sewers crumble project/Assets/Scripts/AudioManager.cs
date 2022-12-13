@@ -78,9 +78,8 @@ public class AudioManager : MonoBehaviour
         {
             currentTime += Time.deltaTime;
             s.source.volume = Mathf.Lerp(start, targetVolume, currentTime / duration);
-            //return null;
         }
-        //return;
+        return;
     }
 
 }

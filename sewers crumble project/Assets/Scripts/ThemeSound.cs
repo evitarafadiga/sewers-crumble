@@ -1,14 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ThemeSound : MonoBehaviour
 {
 	private Queue<string> themeSounds;
 
+    public Dialogue dialogue;
     void Start()
     {
-       themeSounds = new Queue<string>(); 
+       themeSounds = new Queue<string>();
+       SceneManager.activeSceneChanged += ChangedActiveScene;
+       FindObjectOfType<ThemeSound>().StartTheme(dialogue);
     }
 
     public void StartTheme(Dialogue dialogue)
@@ -39,5 +43,15 @@ public class ThemeSound : MonoBehaviour
     {
         FindObjectOfType<AudioManager>().Play(sounds);
         yield return null;
+    }
+
+    private void ChangedActiveScene(Scene current, Scene next)
+    {
+        string currentName = current.name;
+
+        if (currentName == null)
+        {
+            FindObjectOfType<AudioManager>().StartFade("Theme",6,0F);
+        }
     }
 }
